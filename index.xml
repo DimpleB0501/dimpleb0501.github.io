@@ -353,7 +353,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-546312879&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-395127468&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -363,7 +363,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-546312879&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-395127468&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1087,13 +1087,19 @@ The major challenge in achieving autonomy is the requirement of flying low in an
       <description>&lt;p align=&#39;justify&#39;&gt; Drones are actively used in precision agriculture with one of its major applications of spraying pesticides, herbicides, fertilizers, etc. in the agricultural field. The aim of this project is to develop a reliable sense and avoid technology to make UAV-based spraying completely autonomous.
 The major challenge in achieving autonomy is the requirement of flying low in an agricultural environment with lots of obstacles like trees, poles, cables, etc.
 &lt;br&gt;
-&amp;emsp; Currently, as a senior engineer at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay&lt;/a&gt;, I am involved in the development of a robust obstacle avoidance algorithm,  as well as the evaluation and selection of a sensor suite capable of detecting common obstacles in the agricultural field. The figure below displays our implementation of LIDAR based obstacle avoidance algorithm.
+&amp;emsp; As a senior engineer at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay&lt;/a&gt;, I led a team of engineers for the development of a robust obstacle detection and avoidance suite capable of navigating through common obstacles in the agricultural field. The figure below displays the functioning of our sense and avoid technology.
 &lt;figure&gt;
     &lt;img src=&#34;sna_gif.gif&#34;
          alt=&#34;obsavoid&#34;&gt;
-    &lt;figcaption&gt;Figure: Tangent bug obstacle avoidance implemented in simulated agricultural field &lt;/figcaption&gt;
+    &lt;figcaption&gt;Figure: Obstacle detection and avoidance in Gymkhana ground, IIT Bombay&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt; Currently, we are working on testing the obstacle avoidance algorithm for different edge cases and outputting a trajectory that maximizes spraying in the marked area. As well as replacing LIDAR with our selected sensor suite.&lt;/p&gt;
+&lt;p&gt;In collaboration with General Aeronautics (GA), Bangalore, we tested our technology on different scenarios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trees of different shapes and sizes,&lt;/li&gt;
+&lt;li&gt;Detection and avoidance at different heights,&lt;/li&gt;
+&lt;li&gt;Detection and avoidance for multiple obstacles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have successfully tested our implementation in the presence of dust and high winds. Currently, we are working towards modifying the avoidance algorithm to maximize spraying in the marked area in the agricultural field.&lt;/p&gt;
 &lt;/p&gt;
 </description>
     </item>
