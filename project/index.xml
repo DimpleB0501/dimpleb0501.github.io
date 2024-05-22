@@ -35,18 +35,30 @@
       <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in development of,
-- Raspberry Pi Pico based lower level controller,
-- Sensor fusion for robot localization,
-- Velocity controller design for lidar based obstacle avoidance.
-&lt;br&gt;
-&amp;emsp;
+      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in the development of, &lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;Encoder-based low-level controller developed with Raspberry Pi Pico,&lt;/li&gt;
+&lt;li&gt;Sensor fusion for robot localization using encoders and orientation sensors,&lt;/li&gt;
+&lt;li&gt;Velocity controller design for lidar-based obstacle avoidance using jetson orin nano.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;figure&gt;
     &lt;img src=&#34;ground_robot.gif&#34;
          alt=&#34;gnd_bot&#34;&gt;
     &lt;figcaption&gt;Figure: Autonomous navigation and avoidance for ground robot &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;  The  .&lt;/p&gt;
+&lt;div style=&#34;clear: both;&#34;&gt;
+  &lt;div style=&#34;float: right; margin-left 1em; margin-top: -40px&#34;&gt;
+  &lt;figure&gt;
+      &lt;img src=&#34;turtlebot.gif&#34;
+           alt=&#34;detect object&#34;
+           width=&#34;300&#34;&gt;
+      &lt;figcaption&gt;Figure 2: Robotic arm grasping household objects &lt;/figcaption&gt;
+  &lt;/figure&gt;  
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;p align=&#39;justify&#39;&gt; The aim of this project was the development of a prototype rover that can be scaled up and used in the vineyard for data collection. Parallely we tested the velocity controller on turtlebot to validate obstacle avoidance performance.  
+  &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/p&gt;
 </description>
     </item>
@@ -191,9 +203,28 @@ The major challenge in achieving autonomy is the requirement of flying low in an
 &lt;p&gt;In collaboration with General Aeronautics (GA), Bangalore, we tested our technology on different scenarios.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trees of different shapes and sizes,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide2.gif&#34;
+         alt=&#34;div_trees&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance for diverse trees &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
 &lt;li&gt;Detection and avoidance at different heights,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide3.gif&#34;
+         alt=&#34;heights&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance at different heights &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
 &lt;li&gt;Detection and avoidance for multiple obstacles.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide4.gif&#34;
+         alt=&#34;multiobs&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance for multiple obstacles &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;We have successfully tested our implementation in the presence of dust and high winds. Currently, we are working towards modifying the avoidance algorithm to maximize spraying in the marked area in the agricultural field.&lt;/p&gt;
 &lt;/p&gt;
 </description>
