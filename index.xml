@@ -353,7 +353,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-395127468&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-316485792&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -363,7 +363,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-395127468&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-316485792&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -938,6 +938,27 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Autonomous navigation for ground robot</title>
+      <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in development of,
+- Raspberry Pi Pico based lower level controller,
+- Sensor fusion for robot localization,
+- Velocity controller design for lidar based obstacle avoidance.
+&lt;br&gt;
+&amp;emsp;
+&lt;figure&gt;
+    &lt;img src=&#34;ground_robot.gif&#34;
+         alt=&#34;gnd_bot&#34;&gt;
+    &lt;figcaption&gt;Figure: Autonomous navigation and avoidance for ground robot &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;  The  .&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Behavioral Cloning</title>
       <link>https://dimpleb0501.github.io/project/a_behaviorclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1057,25 +1078,6 @@ $$&lt;/p&gt;
 &lt;/figure&gt;
 &lt;br&gt;
 &lt;p align=&#39;justify&#39;&gt; &amp;emsp; Object tracking deals with tracking detected objects by assigning IDs to them. A theft or vandalizing of an ATM generally happens when there is a group of people (more than the allowed number) in the ATM or if a person is loitering around inside the ATM for a prolonged duration. Using object tracking methodology we developed algorithms to detect this kind of behavior and on detection alerted the security personnel/ company.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Obstacle detection and collision avoidance for multi-rotor UAV</title>
-      <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; Drones are actively used in precision agriculture with one of its major applications of spraying pesticides, herbicides, fertilizers, etc. in the agricultural field. The aim of this project is to develop a reliable sense and avoid technology to make UAV-based spraying completely autonomous.
-The major challenge in achieving autonomy is the requirement of flying low in an agricultural environment with lots of obstacles like trees, poles, cables, etc.
-&lt;br&gt;
-&amp;emsp; Currently, as a senior engineer at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay&lt;/a&gt;, I am involved in the development of a robust obstacle avoidance algorithm,  as well as the evaluation and selection of a sensor suite capable of detecting common obstacles in the agricultural field. The figure below displays our implementation of LIDAR based obstacle avoidance algorithm.
-&lt;figure&gt;
-    &lt;img src=&#34;obsavoid.gif&#34;
-         alt=&#34;obsavoid&#34;&gt;
-    &lt;figcaption&gt;Figure: Tangent bug obstacle avoidance implemented in simulated agricultural field &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt; Currently, we are working on testing the obstacle avoidance algorithm for different edge cases and outputting a trajectory that maximizes spraying in the marked area. As well as replacing LIDAR with our selected sensor suite.&lt;/p&gt;
-&lt;/p&gt;
 </description>
     </item>
     
