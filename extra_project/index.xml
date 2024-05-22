@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extra_projects | Dimple Bhuta</title>
+    <link>https://dimpleb0501.github.io/extra_project/</link>
+      <atom:link href="https://dimpleb0501.github.io/extra_project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Extra_projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://dimpleb0501.github.io/media/icon_huc013f98525804727a490388fa39763f6_9972_512x512_fill_q75_lanczos_center.jpg</url>
+      <title>Extra_projects</title>
+      <link>https://dimpleb0501.github.io/extra_project/</link>
+    </image>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Waypoint following for a drive differential drive robot &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Behavioral Cloning &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/1_behavioralcloning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/1_behavioralcloning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Face generation &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/3_facegen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/3_facegen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Food Ordering App &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/2_foodorder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/2_foodorder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Image captioning &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/4_imagecapt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/4_imagecapt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

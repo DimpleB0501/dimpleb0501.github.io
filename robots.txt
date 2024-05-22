@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://dimpleb0501.github.io/sitemap.xml
