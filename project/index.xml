@@ -52,7 +52,7 @@
       &lt;img src=&#34;turtlebot.gif&#34;
            alt=&#34;detect object&#34;
            width=&#34;300&#34;&gt;
-      &lt;figcaption&gt;Figure 2: Robotic arm grasping household objects &lt;/figcaption&gt;
+      &lt;figcaption&gt;Figure 2: Obstacle avoidance with turtlebot &lt;/figcaption&gt;
   &lt;/figure&gt;  
   &lt;/div&gt;
   &lt;div&gt;
@@ -205,7 +205,7 @@ The major challenge in achieving autonomy is the requirement of flying low in an
 &lt;li&gt;Trees of different shapes and sizes,&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;slide2.gif&#34;
+    &lt;img src=&#34;slide_2.gif&#34;
          alt=&#34;div_trees&#34;&gt;
     &lt;figcaption&gt;Figure: Sensing and avoidance for diverse trees &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -213,7 +213,7 @@ The major challenge in achieving autonomy is the requirement of flying low in an
 &lt;li&gt;Detection and avoidance at different heights,&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;slide3.gif&#34;
+    &lt;img src=&#34;slide_3.gif&#34;
          alt=&#34;heights&#34;&gt;
     &lt;figcaption&gt;Figure: Sensing and avoidance at different heights &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -221,7 +221,7 @@ The major challenge in achieving autonomy is the requirement of flying low in an
 &lt;li&gt;Detection and avoidance for multiple obstacles.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;slide4.gif&#34;
+    &lt;img src=&#34;slide_4.gif&#34;
          alt=&#34;multiobs&#34;&gt;
     &lt;figcaption&gt;Figure: Sensing and avoidance for multiple obstacles &lt;/figcaption&gt;
 &lt;/figure&gt;
