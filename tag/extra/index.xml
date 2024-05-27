@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extra | Dimple Bhuta</title>
+    <link>https://dimpleb0501.github.io/tag/extra/</link>
+      <atom:link href="https://dimpleb0501.github.io/tag/extra/index.xml" rel="self" type="application/rss+xml" />
+    <description>extra</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://dimpleb0501.github.io/media/icon_huc013f98525804727a490388fa39763f6_9972_512x512_fill_q75_lanczos_center.jpg</url>
+      <title>extra</title>
+      <link>https://dimpleb0501.github.io/tag/extra/</link>
+    </image>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Food Ordering App &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/2_foodorder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/2_foodorder/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

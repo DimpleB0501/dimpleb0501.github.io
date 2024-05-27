@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research_projects | Dimple Bhuta</title>
+    <link>https://dimpleb0501.github.io/research_projects/</link>
+      <atom:link href="https://dimpleb0501.github.io/research_projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research_projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://dimpleb0501.github.io/media/icon_huc013f98525804727a490388fa39763f6_9972_512x512_fill_q75_lanczos_center.jpg</url>
+      <title>Research_projects</title>
+      <link>https://dimpleb0501.github.io/research_projects/</link>
+    </image>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Obstacle detection and collision avoidance for multi-rotor UAVs&lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Autonomous navigation for ground robot&lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Position estimation of a multi-rotor UAV using a depth camera &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/9_flvis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/9_flvis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Path Planning and Patrolling for a team of Car-like Robots in a Campus Environment &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/1_cars_proj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/1_cars_proj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Slip control experimental setup design &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/5_slip_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/5_slip_control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Tactile and haptic glove interface &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/6_tactile_haptic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/6_tactile_haptic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Development of motion planning algorithms for robots &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/4_motion_robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/4_motion_robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Programming robotic manipulator for pick and place task &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jewellery segmentation</title>
+      <link>https://dimpleb0501.github.io/research_projects/7_jewell_segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/7_jewell_segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Object detection and tracking &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt;Pattern recognition based prosthetic arm&lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/8_pattern_rec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/8_pattern_rec/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

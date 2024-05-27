@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Dimple Bhuta</title>
+    <link>https://dimpleb0501.github.io/project/</link>
+      <atom:link href="https://dimpleb0501.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://dimpleb0501.github.io/media/icon_huc013f98525804727a490388fa39763f6_9972_512x512_fill_q75_lanczos_center.jpg</url>
+      <title>Projects</title>
+      <link>https://dimpleb0501.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Android development - Food ordering app</title>
+      <link>https://dimpleb0501.github.io/project/b_foodordering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/b_foodordering/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; I enrolled in a one month long mobile app development course conducted by Robotech labs organized by IIT, Bombay.
+&lt;br&gt;
+&amp;emsp; Following is the &lt;a href=&#34;https://github.com/DimpleB0501/android_development/tree/main/iitb_android_development_coursework&#34;&gt; GitHub link &lt;/a&gt; for the apps that I developed during the course. Figure below displays snippets of food ordering and payment application that I successfully developed during the course. &lt;/p&gt;
+&lt;figure&gt;
+&lt;table&gt;&lt;tr&gt;
+    &lt;td&gt; &lt;img src=&#34;app1.png&#34; alt=&#34;Drawing&#34; style=&#34;width: 400px;&#34;/&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;img src=&#34;app2.png&#34; alt=&#34;Drawing&#34; style=&#34;width: 400px;&#34;/&gt; &lt;/td&gt;
+    &lt;/tr&gt;&lt;/table&gt;
+    &lt;figcaption&gt;Figure: Food ordering and payment app &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous navigation for ground robot</title>
+      <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in the development of, &lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;Encoder-based low-level controller developed with Raspberry Pi Pico,&lt;/li&gt;
+&lt;li&gt;Sensor fusion for robot localization using encoders and orientation sensors,&lt;/li&gt;
+&lt;li&gt;Velocity controller design for lidar-based obstacle avoidance using jetson orin nano.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ground_robot.gif&#34;
+         alt=&#34;gnd_bot&#34;&gt;
+    &lt;figcaption&gt;Figure: Autonomous navigation and avoidance for ground robot &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div style=&#34;clear: both;&#34;&gt;
+  &lt;div style=&#34;float: right; margin-left 1em; margin-top: -40px&#34;&gt;
+  &lt;figure&gt;
+      &lt;img src=&#34;turtlebot.gif&#34;
+           alt=&#34;detect object&#34;
+           width=&#34;300&#34;&gt;
+      &lt;figcaption&gt;Figure 2: Obstacle avoidance with turtlebot &lt;/figcaption&gt;
+  &lt;/figure&gt;  
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;p align=&#39;justify&#39;&gt; The aim of this project was the development of a prototype rover that can be scaled up and used in the vineyard for data collection. Parallely we tested the velocity controller on turtlebot to validate obstacle avoidance performance.  
+  &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioral Cloning</title>
+      <link>https://dimpleb0501.github.io/project/a_behaviorclone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/a_behaviorclone/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; I was selected for term 1 of self-driving cars nanodegree through KPIT scholarship. In the nanodegree, we implemented several projects like lane line detection, traffic signal classifier, behavioral cloning, and sensor fusion via extended kalman filters. Following is the &lt;a href=&#34;https://github.com/DimpleB0501/udacity_nanodegree_projects/tree/main/1_self_driving_ND&#34;&gt; GitHub link &lt;/a&gt; for the codes that I implemented during the course.
+&lt;br&gt;
+&amp;emsp; Of particular interest for me was the behavioral cloning project. In this project, our goal was to train a network using Keras which can successfully emulate human driving behavior autonomously in a simulated environment. I built a modified CNN based on NVIDIA’s &lt;a href=&#34;https://arxiv.org/pdf/1604.07316v1.pdf&#34;&gt; End to End Learning for Self-Driving Cars &lt;/a&gt; paper. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;bc.gif&#34;
+         alt=&#34;cars&#34;&gt;
+    &lt;figcaption&gt;Figure: Car driving autonomously in the simulator &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of motion planning algorithms for robots</title>
+      <link>https://dimpleb0501.github.io/project/4_robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/4_robot/</guid>
+      <description>&lt;div&gt;
+      &lt;figure style=&#34;float:left; width:100%&#34;&gt;
+        &lt;a href=&#34;#&#34;&gt;
+          &lt;img src=&#34;a_bread.gif&#34; loading=&#34;lazy&#34; alt=&#34;cat&#34; width=&#34;50%&#34;&gt;
+        &lt;/a&gt;
+        &lt;figcaption style=&#34;text-align:center&#34;&gt; (a) Bread cutting task &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;figure style=&#34;float:left; width:50%&#34;&gt;
+        &lt;a href=&#34;#&#34;&gt;
+          &lt;img src=&#34;b_wine.gif&#34; loading=&#34;lazy&#34; alt=&#34;cat 2&#34; width=&#34;100%&#34;&gt;
+        &lt;/a&gt;
+        &lt;figcaption style=&#34;text-align:center&#34;&gt; (b) Corkscrew unlocking task &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;figure style=&#34;float:left; width:50%&#34;&gt;
+        &lt;a href=&#34;#&#34;&gt;
+          &lt;img src=&#34;c_hand.gif&#34; loading=&#34;lazy&#34; alt=&#34;cat&#34; width=&#34;100%&#34;&gt;
+        &lt;/a&gt;
+        &lt;figcaption style=&#34;text-align:center&#34;&gt; (c) Programmatic controlling of a robotic hand &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;br&gt; &lt;br&gt;
+&lt;p align=&#39;justify&#39;&gt; &amp;emsp; This part of my work was affiliated with the office of naval research Singapore (abbreviated ONR). Here I worked with a group of research scientists to make robots perform day-to-day tasks such as bread cutting and opening the corkscrew for a wine bottle. My work consisted of motion planning and control of the robots. I programmed the robot to perform zig-zag and spiral motions, as well as build an interface to control the digits of a robotic hand. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face generation</title>
+      <link>https://dimpleb0501.github.io/project/c_facegen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/c_facegen/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;face_gen.png&#34;
+         alt=&#34;GAN&#34;&gt;
+    &lt;figcaption&gt;Figure: Face generation with GANs &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p align=&#39;justify&#39;&gt; I had applied to Bertelsmann Technology Scholarships and was among the Top 1,600 performers. As a result of which I was awarded a scholarship to Deep Learning Nanodegree program. A module of my program was dedicated to fake face generation using general adversarial networks (GANs). Figure above displays the generated samples (or generated faces) from my developed GAN model.
+&lt;br&gt;
+&amp;emsp; The generated samples do not exactly resemble human faces, but rather seem to be scary caricatures. This was because the training data consists of most images that are clipped below the chin area and were biased towards white celebrity faces. To improve the model work needs to be done towards creating a dataset comprising of high resolution images of complete faces of diverse ethnicity. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image captioning</title>
+      <link>https://dimpleb0501.github.io/project/d_capt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/d_capt/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt;Image Captioning is the process of generating a textual description of an image. Basically, image captioning is a computer describing an input image in a sentence or paragraph. It uses concepts of Computer Vision and Natural Language Processing fields to generate the captions. Figure below displays my developed model&#39;s predictions on sample images.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ic1.png&#34;
+         alt=&#34;correct&#34;&gt;
+    &lt;figcaption&gt;Figure: Image with correct  prediction &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ic2.png&#34;
+         alt=&#34;correct&#34;&gt;
+    &lt;figcaption&gt;Figure: Image where model could have performed better] &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jewellery segmentation</title>
+      <link>https://dimpleb0501.github.io/project/7_segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/7_segmentation/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; In digital image processing and computer vision, image segmentation is a process of partitioning a digital image into multiple segments. It helps to simplify the image as well as the partitioned image is eventually assigned labels which with further processing play an important role in object detection within an image.
+&lt;br&gt;
+&amp;emsp; I worked as a Project Assistant at Multimodal Perception Laboratory, International Institute of Information Technology, Bangalore, India. My work here was  to analyze different image segmentation algorithms and develop an algorithm that would segment the background in shared jewelry images. The output of our algorithm was to replace the original background with transparent background. Our vendors intended to replace the background, edit the image and use it on selling websites.
+&lt;br&gt;
+&amp;emsp; Figures 1 and 2 displays our algorithm’s performance on original images shared by our vendors.
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;a_good.png&#34;
+         alt=&#34;jew1&#34;&gt;
+    &lt;figcaption&gt;Figure 1: Segmentation algorithm (best case) &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;b_bad.png&#34;
+         alt=&#34;jew2&#34;&gt;
+    &lt;figcaption&gt;Figure 2: Segmentation algorithm (worst case) &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object detection and tracking</title>
+      <link>https://dimpleb0501.github.io/project/2_objtrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/2_objtrack/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; At AitoeLabs, I worked with a team of engineers to build efficient video analytic solutions for internal security. To ensure ATM security we developed deep learning models and algorithmic codes on the live video stream.
+&lt;br&gt;
+&amp;emsp; I was affiliated with the object detection and tracking group. Our implemented human detection algorithm’s performance is displayed in below.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;objs_detect.gif&#34;
+         alt=&#34;atm surveillance&#34;&gt;
+    &lt;figcaption&gt;Figure: Detecting multiple objects (people) in a live stream &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;p align=&#39;justify&#39;&gt; &amp;emsp; Object tracking deals with tracking detected objects by assigning IDs to them. A theft or vandalizing of an ATM generally happens when there is a group of people (more than the allowed number) in the ATM or if a person is loitering around inside the ATM for a prolonged duration. Using object tracking methodology we developed algorithms to detect this kind of behavior and on detection alerted the security personnel/ company.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Obstacle detection and collision avoidance for multi-rotor UAV</title>
+      <link>https://dimpleb0501.github.io/project/11_sna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/11_sna/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; Drones are actively used in precision agriculture with one of its major applications of spraying pesticides, herbicides, fertilizers, etc. in the agricultural field. The aim of this project is to develop a reliable sense and avoid technology to make UAV-based spraying completely autonomous.
+The major challenge in achieving autonomy is the requirement of flying low in an agricultural environment with lots of obstacles like trees, poles, cables, etc.
+&lt;br&gt;
+&amp;emsp; As a senior engineer at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay&lt;/a&gt;, I led a team of engineers for the development of a robust obstacle detection and avoidance suite capable of navigating through common obstacles in the agricultural field. The figure below displays the functioning of our sense and avoid technology.
+&lt;figure&gt;
+    &lt;img src=&#34;sna_gif.gif&#34;
+         alt=&#34;obsavoid&#34;&gt;
+    &lt;figcaption&gt;Figure: Obstacle detection and avoidance in Gymkhana ground, IIT Bombay&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;In collaboration with General Aeronautics (GA), Bangalore, we tested our technology on different scenarios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trees of different shapes and sizes,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide_2.gif&#34;
+         alt=&#34;div_trees&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance for diverse trees &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Detection and avoidance at different heights,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide_3.gif&#34;
+         alt=&#34;heights&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance at different heights &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Detection and avoidance for multiple obstacles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;slide_4.gif&#34;
+         alt=&#34;multiobs&#34;&gt;
+    &lt;figcaption&gt;Figure: Sensing and avoidance for multiple obstacles &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;We have successfully tested our implementation in the presence of dust and high winds. Currently, we are working towards modifying the avoidance algorithm to maximize spraying in the marked area in the agricultural field.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Path Planning and Patrolling for a team of Car-like Robots in a Campus Environment</title>
+      <link>https://dimpleb0501.github.io/project/1_cars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/1_cars/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; For self-driving cars to traverse roads, it requires a robust path planning system. The planning system is responsible for high-level path planning such as route planning (which roads/ route to take to reach from point A to point B), path generation (generating a smooth curve to avoid abrupt acceleration/ deceleration and jerky behavior of car), and low-level path planning such as behavior selection (selecting behavior such as lane-keeping, intersection handling, traffic light handling), motion planning (generating the reference path along with reference speeds) and obstacle avoidance (reactive avoiding obstacles in its path).
+&lt;br&gt;
+&amp;emsp; During my work at Indian Institute of Technology, Bombay, I have worked towards designing and developing several modules of a reactive path planning system for autonomous mobile vehicles, allowing the vehicles to navigate predefined areas from the world map. Figure below displays multiple vehicles traversing roads in our simulated environment. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;multi_agents.gif&#34;
+         alt=&#34;cars&#34;&gt;
+    &lt;figcaption&gt;Figure: Cars traversing roads in an area selected in the world map &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pattern recognition based prosthetic arm</title>
+      <link>https://dimpleb0501.github.io/project/8_patternrec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/8_patternrec/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; The following section entails my work at Infinite biomedical technologies (a John Hopkins-affiliated research lab in the USA). Here I worked as a project manager, and with my team developed a stand-alone device that non-invasively records 8-channels of the subject’s EMG signals (in real-time) to differentiate, determine and control prosthetic hand positions. We successfully implemented hand-open, close, flex, extend, pronate, supinate and hook hand positions.
+&lt;br&gt;
+&amp;emsp; The images below (as well as the YouTube video) display the working of our interface for hand open and close positions. The EMG patterns generated when the subject opens or closes their hand is analyzed by our device and based on the classification result the robotic hand mimics the subject’s hand position. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;pattern_rec.gif&#34;
+         alt=&#34;pattern rec&#34;&gt;
+    &lt;figcaption&gt;Figure: Controlling prosthetic hand based on subject’s EMG patterns &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Position estimation of a multi-rotor UAV using a depth camera</title>
+      <link>https://dimpleb0501.github.io/project/9_flvis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/9_flvis/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; In this project at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay &lt;/a&gt;, we evaluated visual inertial odometry (VIO) systems for robot pose estimation based on &lt;a href=&#34;https://arxiv.org/abs/2206.05066&#34;&gt; Experimental Evaluation of VIO Systems for Arable Farming &lt;/a&gt; paper. In VIO systems, camera captures rich information of the scene at a low frame rate whilst IMU gets motion information at a high rate.
+&lt;br&gt;
+&amp;emsp; VIO systems allow robot pose estimation even in GNSS denied areas and are independent of the robot locomotion. However agricultural fields entail a particular challenge for VIO systems since, among their characteristics, they have changing lighting conditions, highly self-similar textures, and unstructured and dynamic objects. Furthermore, the irregular terrain of the field causes more aggressive camera motion than what is usually seen in urban and indoor cases.
+&lt;br&gt;
+&amp;emsp; We simulated an agricultural field in a gazebo environment with crop rows. And estimated the iris drone&#39;s (with integrated intel realsense depth camera) position and orientation using &lt;a href=&#34;https://ieeexplore.ieee.org/document/10155195&#34;&gt;feedback based visual inertial system (FVIS) &lt;/a&gt; algorithm. The following video displays our implementation. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;9_flvis.gif&#34;
+         alt=&#34;localization&#34;&gt;
+    &lt;figcaption&gt;Figure: Localization of iris quadcopter in agricultural field &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programming robotic manipulator for pick and place task</title>
+      <link>https://dimpleb0501.github.io/project/3_manipulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/3_manipulator/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; At my job at Dhristi works, we aimed to develop garbage bots for beach cleaning. My focus was on developing algorithms for a robotic arm for pick and place tasks. The application would be used to identify and pick garbage on the beach and place it on the bag/bin on top of a mobile rover (which was parallelly being developed by other team members).
+&lt;br&gt;
+&amp;emsp; I used ROS to set up an interface between the actual robot(purchased 5DOF
+robotic arm) and gazebo simulator. Thus controlling the robot both in the
+simulated and real environment. The Figure below displays the robot being
+controlled by ROS in both real and simulated environments. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;pickplace.gif&#34;
+         alt=&#34;manipulator&#34;&gt;
+    &lt;figcaption&gt;Figure 1: Robot mimicking position via commands from ROS &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div style=&#34;clear: both;&#34;&gt;
+  &lt;div style=&#34;float: right; margin-left 1em; margin-top: -40px&#34;&gt;
+  &lt;figure&gt;
+      &lt;img src=&#34;reach.gif&#34;
+           alt=&#34;detect object&#34;
+           width=&#34;300&#34;&gt;
+      &lt;figcaption&gt;Figure 2: Robotic arm grasping household objects &lt;/figcaption&gt;
+  &lt;/figure&gt;  
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;p align=&#39;justify&#39;&gt; To grasp household objects, I compared and analyzed several available grasping techniques. And interfaced the selected technique with our simulated robot.
+  &lt;br&gt;
+  Figure 2 displays the scene creation in a simulated environment consisting of
+  robot and household objects.
+  &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slip control experimental setup design</title>
+      <link>https://dimpleb0501.github.io/project/5_slipcontrol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/5_slipcontrol/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;slip_control.png&#34;
+         alt=&#34;slip_control&#34;&gt;
+    &lt;figcaption&gt;Figure: Slip control experimental setup&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p align=&#39;justify&#39;&gt; To study the occurrence of slippage when mass is added to an object gripped by a robotic end-effector, I designed an &lt;u&gt;experimental setup&lt;/u&gt; to recreate slip conditions and test friction models developed by the post-doctoral fellow.
+&lt;br&gt;
+&amp;emsp; Slip conditions can be interpreted by normal and tangential forces of the object on the end- effector. I  worked  on  developing  a  high-density  tactile  sensor  array  to  fit  the  surface  area  of WidowX’s (purchased robot) parallel gripper, as well as built circuitry and designed algorithms to read tactile, force, and optical sensor data every 0.01 second using Simulink software. This part of the setup would provide the magnitude and direction of the normal force and would serve as input to the friction model/ controller designed by the post-doctoral fellow.
+&lt;br&gt;
+&amp;emsp;To control the orientation  of the robot and adjust the gripper position, I developed an interface which permitted the gripper to perform micromotions  every  0.01  seconds.  The high-speed  micromotions  enables the  WidowX  to  promptly control the grip of the robot once the slip event is detected  by the friction model/ controller.
+ &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tactile and haptic glove interface</title>
+      <link>https://dimpleb0501.github.io/project/6_haptic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/6_haptic/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; This interface is a telerobotics application and consists of the following 3 parts:
+&lt;ul&gt;
+  &lt;li&gt; Development of tactile glove: We developed a fabric tactile sensor array in the form of a glove that would be fitted to a robotic hand. The output of the tactile sensor is inversely proportional to the pressure applied by an external object. &lt;/li&gt;
+  &lt;li&gt; Development of haptic glove: To facilitate the remote human operator to perceive and understand distant and inaccessible environments, we developed haptic glove intending to render and replicate the sense of touch. &lt;/li&gt;
+  &lt;li&gt; Interface: Worked on developing a first-generation interface that enables the user to feel the object gripped by the robot, by determining the amount of pressure applied to the sensorized tactile glove and equivalently modulating vibratory haptic feedback on the haptic glove worn by the user. &lt;/li&gt;
+&lt;/ul&gt;
+&amp;emsp; Depending on the amount of pressure applied to the sensorized robotic hand
+equivalent vibration will be be experienced by the user. Figure below displays that
+high pressure is applied to the robotic hand and equivalent intensity vibration
+will be felt by the remote user wearing the haptic glove. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;interface.gif&#34;
+         alt=&#34;interface&#34;&gt;
+    &lt;figcaption&gt; Figure: Tactile and haptic glove interface &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Waypoint following for 2 wheel drive differential drive robot</title>
+      <link>https://dimpleb0501.github.io/project/e_2wdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/e_2wdd/</guid>
+      <description>&lt;p&gt;In progress&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
