@@ -169,28 +169,18 @@
     </item>
     
     <item>
-      <title>Object detection and tracking</title>
-      <link>https://dimpleb0501.github.io/project/2_objtrack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/project/2_objtrack/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; At AitoeLabs, I worked with a team of engineers to build efficient video analytic solutions for internal security. To ensure ATM security we developed deep learning models and algorithmic codes on the live video stream.
-&lt;br&gt;
-&amp;emsp; I was affiliated with the object detection and tracking group. Our implemented human detection algorithm’s performance is displayed in below.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;objs_detect.gif&#34;
-         alt=&#34;atm surveillance&#34;&gt;
-    &lt;figcaption&gt;Figure: Detecting multiple objects (people) in a live stream &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;p align=&#39;justify&#39;&gt; &amp;emsp; Object tracking deals with tracking detected objects by assigning IDs to them. A theft or vandalizing of an ATM generally happens when there is a group of people (more than the allowed number) in the ATM or if a person is loitering around inside the ATM for a prolonged duration. Using object tracking methodology we developed algorithms to detect this kind of behavior and on detection alerted the security personnel/ company.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Obstacle detection and collision avoidance for multi-rotor UAV</title>
+      <title>Lightweight Sense-and-Avoid module for Low-Altitude UAVs in Agriculture</title>
       <link>https://dimpleb0501.github.io/project/11_sna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/11_sna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multispectral Image Acquisition &amp; Data Inference using UAVs</title>
+      <link>https://dimpleb0501.github.io/project/12_spectral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/12_spectral/</guid>
       <description>&lt;p align=&#39;justify&#39;&gt; Drones are actively used in precision agriculture with one of its major applications of spraying pesticides, herbicides, fertilizers, etc. in the agricultural field. The aim of this project is to develop a reliable sense and avoid technology to make UAV-based spraying completely autonomous.
 The major challenge in achieving autonomy is the requirement of flying low in an agricultural environment with lots of obstacles like trees, poles, cables, etc.
 &lt;br&gt;
@@ -209,24 +199,25 @@ The major challenge in achieving autonomy is the requirement of flying low in an
          alt=&#34;div_trees&#34;&gt;
     &lt;figcaption&gt;Figure: Sensing and avoidance for diverse trees &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;Detection and avoidance at different heights,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;slide_3.gif&#34;
-         alt=&#34;heights&#34;&gt;
-    &lt;figcaption&gt;Figure: Sensing and avoidance at different heights &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;Detection and avoidance for multiple obstacles.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;slide_4.gif&#34;
-         alt=&#34;multiobs&#34;&gt;
-    &lt;figcaption&gt;Figure: Sensing and avoidance for multiple obstacles &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;We have successfully tested our implementation in the presence of dust and high winds. Currently, we are working towards modifying the avoidance algorithm to maximize spraying in the marked area in the agricultural field.&lt;/p&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object detection and tracking</title>
+      <link>https://dimpleb0501.github.io/project/2_objtrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/2_objtrack/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; At AitoeLabs, I worked with a team of engineers to build efficient video analytic solutions for internal security. To ensure ATM security we developed deep learning models and algorithmic codes on the live video stream.
+&lt;br&gt;
+&amp;emsp; I was affiliated with the object detection and tracking group. Our implemented human detection algorithm’s performance is displayed in below.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;objs_detect.gif&#34;
+         alt=&#34;atm surveillance&#34;&gt;
+    &lt;figcaption&gt;Figure: Detecting multiple objects (people) in a live stream &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;p align=&#39;justify&#39;&gt; &amp;emsp; Object tracking deals with tracking detected objects by assigning IDs to them. A theft or vandalizing of an ATM generally happens when there is a group of people (more than the allowed number) in the ATM or if a person is loitering around inside the ATM for a prolonged duration. Using object tracking methodology we developed algorithms to detect this kind of behavior and on detection alerted the security personnel/ company.&lt;/p&gt;
 </description>
     </item>
     

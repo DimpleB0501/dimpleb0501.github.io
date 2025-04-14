@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Obstacle detection and collision avoidance for multi-rotor UAVs&lt;/p&gt;</title>
+      <title>&lt;p align=&#39;justify&#39;&gt; Multispectral Image Acquisition &amp; Data Inference using UAVs &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/12_multispectral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/12_multispectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Lightweight Sense-and-Avoid module for Low-Altitude UAVs in Agriculture&lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</guid>
@@ -45,6 +53,22 @@
     </item>
     
     <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Object detection and tracking &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Programming robotic manipulator for pick and place task &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;p align=&#39;justify&#39;&gt; Slip control experimental setup design &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/research_projects/5_slip_control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,26 +93,10 @@
     </item>
     
     <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Programming robotic manipulator for pick and place task &lt;/p&gt;</title>
-      <link>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/research_projects/3_prog_manipulator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jewellery segmentation</title>
       <link>https://dimpleb0501.github.io/research_projects/7_jewell_segmentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/research_projects/7_jewell_segmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Object detection and tracking &lt;/p&gt;</title>
-      <link>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/research_projects/2_obj_det_track/</guid>
       <description></description>
     </item>
     
