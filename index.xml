@@ -361,7 +361,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-894362715&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-968217534&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -371,7 +371,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-894362715&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-968217534&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1088,7 +1088,8 @@ $$&lt;/p&gt;
       <link>https://dimpleb0501.github.io/project/11_sna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/11_sna/</guid>
-      <description></description>
+      <description>&lt;h1&gt; &lt;center&gt; &lt;b&gt; Abstract &lt;/b&gt; &lt;/center&gt;&lt;/h1&gt;  &lt;p align=&#39;justify&#39;&gt; This paper introduces a lightweight framework designed to enhance UAV operations for low-altitude flying in agriculture fields. Farmlands are often filled with obstacles such as trees, structures, and poles, which can be dangerous when flying low. To address this challenge, the proposed system combines depth data from RGB-D camera with an IMU to generate LiDAR-like data, ensuring seamless integration with any range sensor-based avoidance algorithms. The entire perception and processing stack runs on the sense-and-avoid module, which can be easily mounted on MAVLink compatible flight controller. This allows the UAV to detect and avoid obstacles in real time, transitioning from semi-autonomous to fully autonomous flight control. By minimizing yaw during navigation, the system ensures both energy efficiency and stability, using only 40 % of the onboard processor, leaving room for the integration of additional functionalities, such as aerial spraying, data collection, etc. The effectiveness of the system was validated through simulations and real-world tests, showing reliable performance in diverse agricultural settings. This vehicle-agnostic sense-and-avoid technology has broad applications in agriculture, surveillance, and disaster relief, improving UAV navigation in obstacle-dense environments. &lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1096,25 +1097,110 @@ $$&lt;/p&gt;
       <link>https://dimpleb0501.github.io/project/12_spectral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/12_spectral/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; Drones are actively used in precision agriculture with one of its major applications of spraying pesticides, herbicides, fertilizers, etc. in the agricultural field. The aim of this project is to develop a reliable sense and avoid technology to make UAV-based spraying completely autonomous.
-The major challenge in achieving autonomy is the requirement of flying low in an agricultural environment with lots of obstacles like trees, poles, cables, etc.
-&lt;br&gt;
-&amp;emsp; As a senior engineer at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay&lt;/a&gt;, I led a team of engineers for the development of a robust obstacle detection and avoidance suite capable of navigating through common obstacles in the agricultural field. The figure below displays the functioning of our sense and avoid technology.
-&lt;figure&gt;
-    &lt;img src=&#34;sna_gif.gif&#34;
-         alt=&#34;obsavoid&#34;&gt;
-    &lt;figcaption&gt;Figure: Obstacle detection and avoidance in Gymkhana ground, IIT Bombay&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;In collaboration with General Aeronautics (GA), Bangalore, we tested our technology on different scenarios.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Trees of different shapes and sizes,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;slide_2.gif&#34;
-         alt=&#34;div_trees&#34;&gt;
-    &lt;figcaption&gt;Figure: Sensing and avoidance for diverse trees &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .section {
+      padding: 20px;
+    }
+&lt;pre&gt;&lt;code&gt;.bg-yellow {
+  background-color: #fff9c4; /* Light yellow */
+}
+
+.bg-green {
+  background-color: #effcc7; /* Light green */
+}
+.bg-blue {
+  background-color: #faf9e3; /* Light green */
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;
+        Drones equipped with multispectral cameras offer a powerful, non-invasive method for capturing high-resolution spectral data across large and inaccessible areas. These systems enable early detection of surface anomalies and plant stress by analyzing reflectance patterns beyond the visible spectrum.
+    &lt;/p&gt;
+    &lt;p&gt;
+        I am currently leading a team focused on multispectral data acquisition and AI-based inferencing for two critical projects:
+    &lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;Surface Detection of Oil and Water from Underground Pipelines&lt;/strong&gt; – Utilizing spectral analysis to detect oil leaks and water contamination on the surface, supporting early intervention and environmental protection.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;AI-Based Farm Advisory System for Onion Cultivation&lt;/strong&gt; – Applying drone phenotyping to monitor plant health, detect stress conditions like thrips and anthracnose, and provide yield predictions to assist farmers via the iSaarthi mobile platform.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;
+        These projects aim to solve real-world challenges in infrastructure safety and precision agriculture using drone-enabled multispectral intelligence.
+    &lt;/p&gt;
+  &lt;hr&gt;
+  &lt;div class=&#34;section bg-blue&#34;&gt;
+        &lt;h1&gt;Surface Detection of Oil and Water from Underground Pipelines&lt;/h1&gt;
+        &lt;p&gt;
+            This project, in collaboration with HPCL, IOCL, and GAIL, focuses on detecting surface signatures of oil and water leaks originating from underground pipelines using multispectral imaging and AI-based analysis.
+        &lt;/p&gt;
+        &lt;h2&gt;Problem Statement: Pilferage Detection&lt;/h2&gt;
+        &lt;p&gt;
+            A significant challenge faced by oil and gas companies is the undetected pilferage and leakage of oil from underground pipelines. Early surface-level detection can prevent environmental damage, operational downtime, and economic losses.
+        &lt;/p&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;oil_leakage_problem_statement.png&#34; alt=&#34;oilvswater&#34; style=&#34;max-width:100%; height:auto;&#34;&gt;
+            &lt;figcaption&gt;Figure: Multispectral image analysis for oil vs water pipeline &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;h2&gt;Preliminary Spectral Analysis&lt;/h2&gt;
+        &lt;p&gt;
+            Initial analysis focused on identifying spectral bands that effectively distinguish between oil and water on soil and vegetation. Multispectral imaging helped isolate key wavelengths where oil and water show distinct reflectance patterns.
+        &lt;/p&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;oilvswater.png&#34; alt=&#34;oilvswater&#34; style=&#34;max-width:100%; height:auto;&#34;&gt;
+            &lt;figcaption&gt;Figure: Spectral band comparison of oil and water&lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;h2&gt;Dataset Creation and Model Development&lt;/h2&gt;
+    &lt;p&gt;
+        A custom multispectral dataset was created under controlled conditions using varying quantities of oil, water, and vegetation. This comprehensive dataset enabled the training of a robust deep learning model based on the YOLOv8 architecture. The model achieved an accuracy of &lt;strong&gt;92.9%&lt;/strong&gt; for oil detection and &lt;strong&gt;96%&lt;/strong&gt; for water detection, showcasing strong performance in surface leak classification tasks.
+    &lt;/p&gt;
+    &lt;h2&gt;Phase 2: Real-World Deployment&lt;/h2&gt;
+    &lt;p&gt;
+        In the second phase of the project, we plan to augment the current dataset with real-world data collected from actual pipeline leakage sites, in collaboration with industry partners such as IOCL, HPCL, and GAIL. This phase aims to validate and improve the model&#39;s performance under diverse environmental and terrain conditions. Field data will include site-specific spectral signatures, soil types, and contamination patterns to ensure the model generalizes well to operational settings.
+    &lt;/p&gt;
+    &lt;p&gt;
+        In parallel, comparative benchmarking against other state-of-the-art deep learning algorithms is ongoing, and the results will contribute to a scientific publication currently under development.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;hr&gt;
+  &lt;div class=&#34;section bg-yellow&#34;&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;hr&gt;
+  &lt;div class=&#34;section bg-green&#34;&gt;
+  &lt;h1&gt;AI-Based Farm Advisory System for Onion Cultivation&lt;/h1&gt;
+    &lt;p&gt;
+        In collaboration with ICAR-DOGR (Indian Council of Agricultural Research - Directorate of Onion and Garlic Research),
+        this project focuses on developing an AI-powered farm advisory system tailored for onion farming. Leveraging
+        multispectral imaging and advanced machine learning models, the system aims to detect various forms of
+        plant stress including thrips infestation, anthracnose disease, and water drought conditions.
+        It also incorporates yield prediction models for improved crop management.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The ultimate goal is to integrate drone-based phenotyping with the iSaarthi mobile application,
+        which aggregates data from ground control stations, onboard agro-sensors, and
+        mobile imagery captured by farmers. This fusion of aerial and ground-level data supports
+        real-time, location-specific advisories to empower farmers with actionable insights.
+    &lt;/p&gt;
+    &lt;figure&gt;
+        &lt;img src=&#34;DOGR-project.png&#34;
+             alt=&#34;DOGR&#34;&gt;
+        &lt;figcaption&gt;Figure: AI-based farm advisory system pipeline &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;hr&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </description>
     </item>
     
