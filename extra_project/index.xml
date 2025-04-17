@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Coordinated Multi-Robot Navigation using ROS2 &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/6_leader_follower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/6_leader_follower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;p align=&#39;justify&#39;&gt; Waypoint following for a drive differential drive robot &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

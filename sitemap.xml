@@ -11,6 +11,9 @@
     <loc>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://dimpleb0501.github.io/extra_project/6_leader_follower/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -158,6 +161,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dimpleb0501.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dimpleb0501.github.io/project/f_lf/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dimpleb0501.github.io/extra_project/1_behavioralcloning/</loc>

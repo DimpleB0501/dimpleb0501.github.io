@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Coordinated Multi-Robot Navigation using ROS2 &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/extra_project/6_leader_follower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/extra_project/6_leader_follower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;p align=&#39;justify&#39;&gt; Waypoint following for a drive differential drive robot &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -361,7 +369,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-968217534&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-162543879&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -371,7 +379,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-968217534&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-162543879&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -893,6 +901,15 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dimpleb0501.github.io/project/f_lf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/f_lf/</guid>
+      <description>&lt;p&gt;In progress&lt;/p&gt;
+</description>
     </item>
     
     <item>
