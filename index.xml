@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Multispectral Image Acquisition &amp; Data Inference using UAVs &lt;/p&gt;</title>
+      <title>&lt;p align=&#39;justify&#39;&gt; Multispectral Image Acquisition &amp; Data Inference using UAV &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/research_projects/12_multispectral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/research_projects/12_multispectral/</guid>
@@ -21,18 +21,10 @@
     </item>
     
     <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Lightweight Sense-and-Avoid module for Low-Altitude UAVs in Agriculture&lt;/p&gt;</title>
+      <title>&lt;p align=&#39;justify&#39;&gt; Lightweight Smart Sense-and-Avoid Module for Low-Altitude Agricultural UAVs&lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/research_projects/11_obs_avoid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Autonomous navigation for ground robot&lt;/p&gt;</title>
-      <link>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</guid>
       <description></description>
     </item>
     
@@ -45,6 +37,14 @@
     </item>
     
     <item>
+      <title>&lt;p align=&#39;justify&#39;&gt; Encoder-Orientation Sensor Fusion for Ground Robot Navigation &lt;/p&gt;</title>
+      <link>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/research_projects/10_gnd_bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;p align=&#39;justify&#39;&gt; Waypoint following for a drive differential drive robot &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/extra_project/5_wps_following_2wd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,7 +53,7 @@
     </item>
     
     <item>
-      <title>&lt;p align=&#39;justify&#39;&gt; Position estimation of a multi-rotor UAV using a depth camera &lt;/p&gt;</title>
+      <title>&lt;p align=&#39;justify&#39;&gt; Aerial Vehicle Localization Using a Downward-Facing Depth Camera for Precision Agriculture &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/research_projects/9_flvis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/research_projects/9_flvis/</guid>
@@ -369,7 +369,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-162543879&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-651328947&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -379,7 +379,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-162543879&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-651328947&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -904,15 +904,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>https://dimpleb0501.github.io/project/f_lf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/project/f_lf/</guid>
-      <description>&lt;p&gt;In progress&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>&lt;p align=&#39;justify&#39;&gt; Behavioral Cloning &lt;/p&gt;</title>
       <link>https://dimpleb0501.github.io/extra_project/1_behavioralcloning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -945,6 +936,24 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Aerial Vehicle Localization Using a Downward-Facing Depth Camera for Precision Agriculture</title>
+      <link>https://dimpleb0501.github.io/project/9_flvis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/9_flvis/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; In this project at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay &lt;/a&gt;, we evaluated visual inertial odometry (VIO) systems for robot pose estimation based on &lt;a href=&#34;https://arxiv.org/abs/2206.05066&#34;&gt; Experimental Evaluation of VIO Systems for Arable Farming &lt;/a&gt; paper. In VIO systems, camera captures rich information of the scene at a low frame rate whilst IMU gets motion information at a high rate.
+&lt;br&gt;
+&amp;emsp; VIO systems allow robot pose estimation even in GNSS denied areas and are independent of the robot locomotion. However agricultural fields entail a particular challenge for VIO systems since, among their characteristics, they have changing lighting conditions, highly self-similar textures, and unstructured and dynamic objects. Furthermore, the irregular terrain of the field causes more aggressive camera motion than what is usually seen in urban and indoor cases.
+&lt;br&gt;
+&amp;emsp; We simulated an agricultural field in a gazebo environment with crop rows. And estimated the iris drone&#39;s (with integrated intel realsense depth camera) position and orientation using &lt;a href=&#34;https://ieeexplore.ieee.org/document/10155195&#34;&gt;feedback based visual inertial system (FVIS) &lt;/a&gt; algorithm. The following video displays our implementation. &lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;9_flvis.gif&#34;
+         alt=&#34;localization&#34;&gt;
+    &lt;figcaption&gt;Figure: Localization of iris quadcopter in agricultural field &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Android development - Food ordering app</title>
       <link>https://dimpleb0501.github.io/project/b_foodordering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -963,39 +972,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Autonomous navigation for ground robot</title>
-      <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in the development of, &lt;br/&gt;
-&lt;ul&gt;
-&lt;li&gt;Encoder-based low-level controller developed with Raspberry Pi Pico,&lt;/li&gt;
-&lt;li&gt;Sensor fusion for robot localization using encoders and orientation sensors,&lt;/li&gt;
-&lt;li&gt;Velocity controller design for lidar-based obstacle avoidance using jetson orin nano.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;ground_robot.gif&#34;
-         alt=&#34;gnd_bot&#34;&gt;
-    &lt;figcaption&gt;Figure: Autonomous navigation and avoidance for ground robot &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;div style=&#34;clear: both;&#34;&gt;
-  &lt;div style=&#34;float: right; margin-left 1em; margin-top: -40px&#34;&gt;
-  &lt;figure&gt;
-      &lt;img src=&#34;turtlebot.gif&#34;
-           alt=&#34;detect object&#34;
-           width=&#34;300&#34;&gt;
-      &lt;figcaption&gt;Figure 2: Obstacle avoidance with turtlebot &lt;/figcaption&gt;
-  &lt;/figure&gt;  
-  &lt;/div&gt;
-  &lt;div&gt;
-  &lt;p align=&#39;justify&#39;&gt; The aim of this project was the development of a prototype rover that can be scaled up and used in the vineyard for data collection. Parallely we tested the velocity controller on turtlebot to validate obstacle avoidance performance.  
-  &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Behavioral Cloning</title>
       <link>https://dimpleb0501.github.io/project/a_behaviorclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1008,6 +984,15 @@ $$&lt;/p&gt;
          alt=&#34;cars&#34;&gt;
     &lt;figcaption&gt;Figure: Car driving autonomously in the simulator &lt;/figcaption&gt;
 &lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coordinated Multi-Robot Navigation using ROS2</title>
+      <link>https://dimpleb0501.github.io/project/f_lf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/f_lf/</guid>
+      <description>&lt;p&gt;In progress&lt;/p&gt;
 </description>
     </item>
     
@@ -1038,6 +1023,39 @@ $$&lt;/p&gt;
     &lt;/div&gt;
 &lt;br&gt; &lt;br&gt;
 &lt;p align=&#39;justify&#39;&gt; &amp;emsp; This part of my work was affiliated with the office of naval research Singapore (abbreviated ONR). Here I worked with a group of research scientists to make robots perform day-to-day tasks such as bread cutting and opening the corkscrew for a wine bottle. My work consisted of motion planning and control of the robots. I programmed the robot to perform zig-zag and spiral motions, as well as build an interface to control the digits of a robotic hand. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Encoder-Orientation Sensor Fusion for Ground Robot Navigation</title>
+      <link>https://dimpleb0501.github.io/project/10_gnd_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dimpleb0501.github.io/project/10_gnd_bot/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt; To achieve autonomous navigation for ground robot, I was involved in the development of, &lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;Encoder-based low-level controller developed with Raspberry Pi Pico,&lt;/li&gt;
+&lt;li&gt;Sensor fusion for robot localization using encoders and orientation sensors,&lt;/li&gt;
+&lt;li&gt;Velocity controller design for lidar-based obstacle avoidance using jetson orin nano.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ground_robot.gif&#34;
+         alt=&#34;gnd_bot&#34;&gt;
+    &lt;figcaption&gt;Figure: Autonomous navigation and avoidance for ground robot &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div style=&#34;clear: both;&#34;&gt;
+  &lt;div style=&#34;float: right; margin-left 1em; margin-top: -40px&#34;&gt;
+  &lt;figure&gt;
+      &lt;img src=&#34;turtlebot.gif&#34;
+           alt=&#34;detect object&#34;
+           width=&#34;300&#34;&gt;
+      &lt;figcaption&gt;Figure 2: Obstacle avoidance with turtlebot &lt;/figcaption&gt;
+  &lt;/figure&gt;  
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;p align=&#39;justify&#39;&gt; The aim of this project was the development of a prototype rover that can be scaled up and used in the vineyard for data collection. Parallely we tested the velocity controller on turtlebot to validate obstacle avoidance performance.  
+  &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -1101,7 +1119,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Lightweight Sense-and-Avoid module for Low-Altitude UAVs in Agriculture</title>
+      <title>Lightweight Smart Sense-and-Avoid Module for Low-Altitude Agricultural UAVs</title>
       <link>https://dimpleb0501.github.io/project/11_sna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/11_sna/</guid>
@@ -1267,24 +1285,6 @@ hr {
     &lt;img src=&#34;pattern_rec.gif&#34;
          alt=&#34;pattern rec&#34;&gt;
     &lt;figcaption&gt;Figure: Controlling prosthetic hand based on subject’s EMG patterns &lt;/figcaption&gt;
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Position estimation of a multi-rotor UAV using a depth camera</title>
-      <link>https://dimpleb0501.github.io/project/9_flvis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dimpleb0501.github.io/project/9_flvis/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; In this project at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay &lt;/a&gt;, we evaluated visual inertial odometry (VIO) systems for robot pose estimation based on &lt;a href=&#34;https://arxiv.org/abs/2206.05066&#34;&gt; Experimental Evaluation of VIO Systems for Arable Farming &lt;/a&gt; paper. In VIO systems, camera captures rich information of the scene at a low frame rate whilst IMU gets motion information at a high rate.
-&lt;br&gt;
-&amp;emsp; VIO systems allow robot pose estimation even in GNSS denied areas and are independent of the robot locomotion. However agricultural fields entail a particular challenge for VIO systems since, among their characteristics, they have changing lighting conditions, highly self-similar textures, and unstructured and dynamic objects. Furthermore, the irregular terrain of the field causes more aggressive camera motion than what is usually seen in urban and indoor cases.
-&lt;br&gt;
-&amp;emsp; We simulated an agricultural field in a gazebo environment with crop rows. And estimated the iris drone&#39;s (with integrated intel realsense depth camera) position and orientation using &lt;a href=&#34;https://ieeexplore.ieee.org/document/10155195&#34;&gt;feedback based visual inertial system (FVIS) &lt;/a&gt; algorithm. The following video displays our implementation. &lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;9_flvis.gif&#34;
-         alt=&#34;localization&#34;&gt;
-    &lt;figcaption&gt;Figure: Localization of iris quadcopter in agricultural field &lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
     </item>
