@@ -17,7 +17,74 @@
       <link>https://dimpleb0501.github.io/project/9_flvis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dimpleb0501.github.io/project/9_flvis/</guid>
-      <description>&lt;p align=&#39;justify&#39;&gt; In this project at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay &lt;/a&gt;, we evaluated visual inertial odometry (VIO) systems for robot pose estimation based on &lt;a href=&#34;https://arxiv.org/abs/2206.05066&#34;&gt; Experimental Evaluation of VIO Systems for Arable Farming &lt;/a&gt; paper. In VIO systems, camera captures rich information of the scene at a low frame rate whilst IMU gets motion information at a high rate.
+      <description>&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Side-by-Side Figures with Links&lt;/title&gt;
+  &lt;style&gt;
+    .figures-wrapper {
+      /* clear any floats when done */
+      overflow: hidden;
+      /* optional: set a max-width or center it */
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .figures-wrapper figure {
+      float: left;
+      width: 30%;             /* three figures side by side */
+      margin-right: 5px;      /* space between figures; tweak as needed */
+      margin-bottom: 20px;    /* space below if wrapping */
+      text-align: center;
+    }
+    /* remove right margin on the last figure in each row */
+    .figures-wrapper figure:nth-child(3n) {
+      margin-right: 0;
+    }
+    .figures-wrapper img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .figures-wrapper figcaption a {
+      text-decoration: none;
+      color: #0066cc;
+      font-size: 0.9em;
+    }
+    /* put this either in your page’s &lt;head&gt; or in your custom CSS file */
+  .full-bleed {
+    position: relative;
+    left: 100%;
+    right: 100%;
+    margin-left: -500vw;
+    margin-right: -500vw;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 20px 0; /* optional vertical padding */
+    background: white; /* match your page background */
+  }
+  .full-bleed table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  .full-bleed td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+  }
+  .full-bleed img {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+  .full-bleed figcaption {
+    margin-top: 6px;
+    font-size: 0.95em;
+    color: #333;
+  }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;p align=&#39;justify&#39;&gt; In this project at &lt;a href=&#34;https://www.tih.iitb.ac.in/&#34;&gt;TIH, IIT-Bombay &lt;/a&gt;, we evaluated visual inertial odometry (VIO) systems for robot pose estimation based on &lt;a href=&#34;https://arxiv.org/abs/2206.05066&#34;&gt; Experimental Evaluation of VIO Systems for Arable Farming &lt;/a&gt; paper. In VIO systems, camera captures rich information of the scene at a low frame rate whilst IMU gets motion information at a high rate.
 &lt;br&gt;
 &amp;emsp; VIO systems allow robot pose estimation even in GNSS denied areas and are independent of the robot locomotion. However agricultural fields entail a particular challenge for VIO systems since, among their characteristics, they have changing lighting conditions, highly self-similar textures, and unstructured and dynamic objects. Furthermore, the irregular terrain of the field causes more aggressive camera motion than what is usually seen in urban and indoor cases.
 &lt;br&gt;
@@ -27,6 +94,87 @@
          alt=&#34;localization&#34;&gt;
     &lt;figcaption&gt;Figure: Localization of iris quadcopter in agricultural field &lt;/figcaption&gt;
 &lt;/figure&gt;
+&amp;emsp; &lt;p&gt;
+    To test the implementation, we ran experiments in three Gazebo-simulated environments:
+    &lt;ol&gt;
+      &lt;li&gt;A Manhattan word with rich and diverse features&lt;/li&gt;
+      &lt;li&gt;A structured farm with a regular grid arrangement&lt;/li&gt;
+      &lt;li&gt;An unstructured, randomly generated farm&lt;/li&gt;
+    &lt;/ol&gt;
+    The figure below illustrates each simulation world and provides a link to its corresponding YouTube demonstration.
+  &lt;/p&gt;
+&lt;div class=&#34;figures-wrapper&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;mh_top.png&#34; alt=&#34;Description 1&#34;&gt;
+      &lt;figcaption&gt;
+        &lt;a href=&#34;https://youtu.be/9dqaCNd7JSQ&#34; target=&#34;_blank&#34;&gt;
+          Manhattan World
+        &lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;fg_top.png&#34; alt=&#34;Description 2&#34;&gt;
+      &lt;figcaption&gt;
+        &lt;a href=&#34;https://youtu.be/7Z7jOObbWBc&#34; target=&#34;_blank&#34;&gt;
+          Farm grid world
+        &lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;farm_rand_top.png&#34; alt=&#34;Description 3&#34;&gt;
+      &lt;figcaption&gt;
+        &lt;a href=&#34;https://youtu.be/cHfQndy20NI&#34; target=&#34;_blank&#34;&gt;
+          Farm random arrangement
+        &lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+The plots compare the drone’s true flight path and velocity profile obtained from onboard odometry with the trajectory and speed estimates generated by VIO-SLAM implementation for different heights (3.5 meter, 10 meter and 20 meter).
+ &lt;table&gt;
+   &lt;tr&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;mh_pose.png&#34; alt=&#34;Manhattan World: Position&#34;&gt;
+         &lt;figcaption&gt;Manhattan world: position plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;mh_vel_plot.png&#34; alt=&#34;Manhattan World: Velocity&#34;&gt;
+         &lt;figcaption&gt;Manhattan world: velocity plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;fg_pose.png&#34; alt=&#34;Farm Grid World: Position&#34;&gt;
+         &lt;figcaption&gt;Farm grid world: position plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;fg_vel_plot.png&#34; alt=&#34;Farm Grid World: Velocity&#34;&gt;
+         &lt;figcaption&gt;Farm grid world: velocity plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;fr_pose.png&#34; alt=&#34;Random Farm World: Position&#34;&gt;
+         &lt;figcaption&gt;Farm random world: position plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+       &lt;figure&gt;
+         &lt;img src=&#34;fr_vel_plot.png&#34; alt=&#34;Random Farm World: Velocity&#34;&gt;
+         &lt;figcaption&gt;Farm random world: velocity plots at different heights&lt;/figcaption&gt;
+       &lt;/figure&gt;
+     &lt;/td&gt;
+   &lt;/tr&gt;
+ &lt;/table&gt;
+&lt;/div&gt;
 </description>
     </item>
     
