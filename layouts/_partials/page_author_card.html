@@ -1,0 +1,110 @@
+{{ $profile := .profile }}
+{{ $page := .page }}
+{{ $site_type := site.Params.hugoblox.identity.type | humanize | default "Person" }}
+{{ $avatar_shape := site.Params.hugoblox.layout.avatar_shape | default "circle" }}
+
+{{ if $profile }}
+  {{ $profile_url := printf "/authors/%s/" $profile.slug }}
+  {{ if and (eq $site_type "Person") ($profile.is_owner) }}
+    {{ $profile_url = site.BaseURL }}
+  {{ end }}
+
+  {{ $avatar := $profile.avatar }}
+
+  {{/* Defensive: safely check if $page is a real page object and not a string before accessing Params */}}
+  {{ $tags := slice }}
+  {{ if and $page (ne (printf "%T" $page) "string") }}
+    {{ with $page.Params }}
+      {{ with .tags }}{{ $tags = . }}{{ end }}
+    {{ end }}
+  {{ end }}
+
+<div class="w-full rounded-xl border border-neutral-700/50 bg-neutral-800/40 p-5 mb-4">
+
+  {{ if $tags }}
+  <div class="mb-4 flex flex-wrap gap-2">
+    {{ range $tags }}
+    <a href="{{ (site.GetPage (printf "tags/%s" (. | urlize))).RelPermalink }}"
+       class="inline-block rounded-md bg-blue-700 px-3 py-1 text-sm font-medium text-white no-underline hover:bg-blue-600">
+      {{ . }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="flex items-center gap-5">
+    {{ if $avatar }}
+      {{ $avatarType := printf "%T" $avatar }}
+      {{ if eq $avatarType "string" }}
+        {{/* Case 1: Avatar is a string path */}}
+        <img
+          class="h-20 w-20 flex-shrink-0 {{if ne $avatar_shape "square"}}rounded-full{{end}} ring-2 ring-neutral-700"
+          src="{{ $avatar }}"
+          width="80" height="80"
+          alt="{{$profile.title}}"
+          loading="lazy"
+          />
+      {{ else }}
+        {{/* Case 2: Avatar is a Hugo Resource object */}}
+        {{ $isImageRes := and (ne $avatar.MediaType.SubType "svg") (eq ($avatar.ResourceType | default "") "image") }}
+        {{ if $isImageRes }}
+          {{ $responsive := partial "functions/process_responsive_image.html" (dict
+              "image" $avatar
+              "mode" "fill"
+              "aspect_ratio" "1:1"
+              "anchor" "Center"
+              "sizes" (slice 80 160 240 320)
+          ) }}
+          <img
+            class="h-20 w-20 flex-shrink-0 {{if ne $avatar_shape "square"}}rounded-full{{end}} ring-2 ring-neutral-700"
+            srcset="{{ $responsive.srcset }}"
+            sizes="80px"
+            src="{{ $responsive.fallback.RelPermalink }}"
+            width="80" height="80"
+            alt="{{$profile.title}}"
+            loading="lazy"
+            />
+        {{ else }}
+          <img
+            class="h-20 w-20 flex-shrink-0 {{if ne $avatar_shape "square"}}rounded-full{{end}} ring-2 ring-neutral-700"
+            src="{{ $avatar.RelPermalink }}"
+            width="80" height="80"
+            alt="{{$profile.title}}"
+            loading="lazy"
+            />
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    <div class="min-w-0 flex-1">
+      <div class="text-[0.65rem] font-semibold uppercase tracking-wide text-neutral-400">
+        {{ i18n "authors" }}
+      </div>
+
+      <div class="mt-0.5 leading-6">
+        <span class="text-lg font-semibold text-neutral-100">
+          {{if $profile_url}}<a href="{{$profile_url}}" class="no-underline hover:underline">{{end}}
+          {{$profile.title}}
+          {{if $profile_url}}</a>{{end}}
+        </span>
+        {{- with $profile.pronouns -}}
+          <span class="ml-1 text-sm font-normal text-neutral-400">({{ . }})</span>
+        {{- end -}}
+      </div>
+
+      {{ with $profile.role }}
+      <div class="text-sm font-bold text-neutral-300">{{. | markdownify | emojify}}</div>
+      {{ end }}
+
+      {{ with $profile.bio }}
+      <div class="mt-1 text-sm text-neutral-400">{{ . | markdownify | emojify }}</div>
+      {{ end }}
+
+      <div class="mt-2 flex gap-3 text-xl text-neutral-400">
+        {{ partial "social_links" (dict "Params" (dict "profiles" $profile.links)) }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
