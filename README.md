@@ -1,6 +1,10 @@
 # Run
 ~/dev-portfolio$ pnpm dev
 
+# Pushing to GitHub
+- git add .
+- git commit -m "feat: re-added project"
+- git push -u origin main
 
 # [The Dev Portfolio That Gets You Hired](https://github.com/HugoBlox/hugo-theme-dev-portfolio)
 
