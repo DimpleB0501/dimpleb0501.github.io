@@ -1,5 +1,6 @@
 ---
 title: "Encoder-Orientation Sensor Fusion for Ground Robot Navigation"
+weight: 4
 date: 2024-09-20
 show_date: false
 show_date_updated: false
