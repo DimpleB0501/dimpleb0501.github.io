@@ -1,0 +1,145 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dimple Bhuta
+  given: Dimple
+  family: Bhuta
+postnominals: []
+status:
+  icon: "🤖"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: Robotics Engineer & Researcher
+email: dimple.bhuta@gmail.com
+bio: |
+  Robotics engineer and researcher with 10+ years of experience specializing in perception,
+  navigation, state estimation, and control for autonomous systems.
+
+affiliations:
+  - name: Drone Center, IIT Bombay
+    url: https://rnd.iitb.ac.in/drone
+
+links:
+  - icon: at-symbol
+    url: mailto:dimple.bhuta@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/DimpleB0501
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dimple-bhuta-68425a47
+
+interests:
+  - Autonomous Navigation in Challenging Environments
+  - Multi-Modal Sensor Fusion
+  - Bioinspired robotics
+
+education:
+  - degree: Master of Science in Biomedical Engineering
+    institution: Virginia Commonwealth University
+    start: 2009-08-01
+    end: 2012-05-31
+    summary: |
+       **GPA:** 3.828/4.000 (Top 12% of class).
+
+       **Thesis:** Developed a standalone EEG-based interface for locked-in patients,
+       enabling real-time switch control through EEG intent detection using signal
+       processing, pattern recognition, and embedded systems.
+
+  - degree: Bachelor of Engineering in Electronics
+    institution: K. J. Somaiya College of Engineering, Mumbai University
+    start: 2005-08-01
+    end: 2009-05-31
+    summary: |
+      **Final Year Project:** Developed a secure cryptographic architecture combining
+      DES with a 64-bit Fibonacci LFSR in VHDL.
+
+experience:
+  - role: Project Manager
+    org: Drone Center, IIT Bombay, India
+    start: 2025-09-01
+    summary: |
+      Researching GPS-denied terrain-following navigation for multirotor UAVs using LiDAR, vision, and IMU sensors, evaluating VPS, VIO, and developing novel localization approaches.
+      Researching multi-sensor fusion for robust obstacle detection using LiDAR, radar, and depth cameras, and evaluating obstacle avoidance strategies.
+
+  - role: Principal Engineer – State Estimation and Control
+    org: TIH Foundation for IoT & IoE, IIT Bombay, India
+    start: 2022-06-01
+    end: 2025-09-10
+    summary: |
+      Led UAV multispectral sensing projects for pipeline leak detection and agricultural phenotyping, alongside autonomous navigation, sense-and-avoid, and VIO localization systems.
+
+  - role: Senior Research Fellow
+    org: ARMS Lab, IIT Bombay, India
+    start: 2019-03-01
+    end: 2021-08-31
+    summary: |
+      Developed multi-agent path planning, trajectory tracking, and obstacle avoidance for autonomous patrolling robots in collaboration with CAIR, DRDO.
+
+  - role: Software Developer
+    org: AISIGHT Video Analytics Pvt. Ltd, India
+    start: 2018-07-01
+    end: 2019-01-31
+    summary: |
+     summary: |
+      Developed vision-based surveillance systems for ATM deployment, including human detection and tracking and deep learning-based anomaly detection.
+
+  - role: Drone and Robotics Engineer
+    org: Dhristi Works, India
+    start: 2017-12-01
+    end: 2018-06-30
+    summary: |
+      Developed motion planning, perception, and grasping solutions for autonomous robotic manipulators, including a 7-DOF robot for beach cleaning applications.
+
+  - role: Research Assistant
+    org: Singapore Institute of Neurotechnology, National University of Singapore, Singapore
+    start: 2016-03-01
+    end: 2017-03-31
+    summary: |
+      Worked in the Neuromorphic Engineering Group on tactile sensing and haptics, developing slip control for the WidowX robot, a haptic glove interface, and motion planning for UR10 manipulators and the iLIMB prosthetic hand.
+
+  - role: Project Assistant
+    org: Multimodal Perception Laboratory, IIIT Bangalore, India
+    start: 2015-08-01
+    end: 2015-12-31
+    summary: |
+      Implemented modified GrabCut algorithms for precise jewelry image segmentation.
+
+  - role: Assistant Professor
+    org: Haryana College of Technology and Management, India
+    start: 2014-08-01
+    end: 2015-04-30
+    summary: |
+      Taught digital signal processing and microprocessor interfacing courses, designing and leading hands-on laboratory practicals.
+
+  - role: Project Manager – Embedded Software Engineer
+    org: Infinite Biomedical Technologies, USA
+    start: 2012-09-01
+    end: 2013-04-30
+    summary: |
+      Engineered EMG signal processing and pattern recognition algorithms to decode muscle activity and enable intuitive, multi-gesture prosthetic hand control.
+
+skills:
+  - name: Development
+    items:
+      - label: TypeScript
+        level: 5
+      - label: React
+        level: 5
+      - label: Node.js
+        level: 5
+      - label: Python
+        level: 4
+  - name: DevOps
+    items:
+      - label: Docker
+        level: 4
+      - label: AWS
+        level: 4
+      - label: CI/CD
+        level: 5
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+
+awards: []
