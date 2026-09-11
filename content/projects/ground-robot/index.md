@@ -2,9 +2,12 @@
 title: "Encoder-Orientation Sensor Fusion for Ground Robot Navigation"
 date: 2024-09-20
 show_date: false
-show_read_time: false
+show_date_updated: false
+reading_time: false
+share: false
 
 summary: "Sensor fusion and velocity control for autonomous ground robot navigation and LiDAR-based obstacle avoidance."
+
 
 tags:
   - Autonomous Robotics
