@@ -16,20 +16,17 @@ tech_stack:
   - Sensor Fusion
 
 links:
-  - type: custom
+  - type: pdf
     url: "https://www.sciencedirect.com/science/article/pii/S2405896325024796"
     label: "Paper"
-    icon: document-text
 
-  - type: custom
+  - type: site
     url: "https://sense-and-avoid.github.io/"
     label: "Website"
-    icon: globe-alt
 
-  - type: custom
+  - type: video
     url: "https://www.youtube.com/watch?v=uHRtXmLqwPw"
     label: "YouTube"
-    icon: brands/youtube
 
 featured: true
 ---
