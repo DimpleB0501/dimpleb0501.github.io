@@ -31,5 +31,9 @@ links:
     url: "https://www.youtube.com/watch?v=uHRtXmLqwPw"
     label: "YouTube"
 
+  - type: pptx
+    url: "/uploads/sense-n-avoid.pptx"
+    label: "Presentation"
+
 featured: true
 ---
