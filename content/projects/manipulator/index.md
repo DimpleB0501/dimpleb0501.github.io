@@ -1,6 +1,6 @@
 ---
 title: "Programming Robotic Manipulator for Pick-and-Place Tasks"
-weight: 7
+weight: 10
 date: 2023-04-03
 show_date: false
 show_date_updated: false

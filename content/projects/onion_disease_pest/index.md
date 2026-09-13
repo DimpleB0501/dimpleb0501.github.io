@@ -1,7 +1,7 @@
 ---
 title: "UAV Multispectral Time-Series and Weather-Based Hurdle Modeling for Onion Diseases and Pest Estimation"
-weight: 3
-date: 2026-09-13
+weight: 2
+date: 2023-04-03
 show_date: false
 show_date_updated: false
 reading_time: false
@@ -11,7 +11,6 @@ summary: "Developed a multimodal framework combining UAV multispectral imagery, 
 
 tags:
   - Perception & AI
-  - UAV Systems
 
 tech_stack:
   - Python

@@ -1,6 +1,6 @@
 ---
 title: "Aerial Vehicle Localization Using a Downward-Facing Depth Camera for Precision Agriculture"
-weight: 4
+weight: 3
 date: 2023-04-03
 show_date: false
 show_date_updated: false

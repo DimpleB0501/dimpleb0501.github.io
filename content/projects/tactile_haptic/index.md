@@ -1,6 +1,6 @@
 ---
 title: "Tactile and Haptic Glove Interface"
-weight: 9
+weight: 7
 date: 2023-04-03
 show_date: false
 show_date_updated: false

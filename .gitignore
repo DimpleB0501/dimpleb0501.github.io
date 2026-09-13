@@ -67,3 +67,7 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Large presentation and poster files
+static/uploads/sense-n-avoid.pptx
+static/uploads/multispectral_leak_detection_poster.pdf

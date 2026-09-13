@@ -1,7 +1,7 @@
 ---
 title: "Lightweight Smart Sense-and-Avoid Module for Low-Altitude Agricultural UAVs"
 weight: 1
-date: 2024-09-20
+date: 2023-04-03
 show_date: false
 show_date_updated: false
 reading_time: false

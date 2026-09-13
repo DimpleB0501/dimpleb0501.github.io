@@ -1,6 +1,6 @@
 ---
 title: "Object Detection and Tracking"
-weight: 11
+weight: 9
 date: 2023-04-03
 show_date: false
 show_date_updated: false

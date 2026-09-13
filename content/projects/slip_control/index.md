@@ -1,6 +1,6 @@
 ---
 title: "Slip Control Experimental Setup Design"
-weight: 8
+weight: 6
 date: 2023-04-03
 show_date: false
 show_date_updated: false

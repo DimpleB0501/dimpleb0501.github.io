@@ -1,6 +1,6 @@
 ---
 title: "Development of Motion Planning Algorithms for Robots"
-weight: 10
+weight: 11
 date: 2023-04-03
 show_date: false
 show_date_updated: false

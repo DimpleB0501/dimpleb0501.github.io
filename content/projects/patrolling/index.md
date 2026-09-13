@@ -1,7 +1,7 @@
 ---
 title: "Path Planning and Patrolling for a Team of Car-like Robots in a Campus Environment"
 weight: 5
-date: 2023-04-01
+date: 2023-04-03
 show_date: false
 show_date_updated: false
 reading_time: false
