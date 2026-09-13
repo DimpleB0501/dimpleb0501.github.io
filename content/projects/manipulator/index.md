@@ -1,0 +1,68 @@
+---
+title: "Programming Robotic Manipulator for Pick-and-Place Tasks"
+weight: 7
+date: 2023-04-03
+show_date: false
+show_date_updated: false
+reading_time: false
+share: false
+
+summary: "Developed ROS-based control and grasping algorithms for a robotic manipulator intended for autonomous beach-cleaning applications."
+
+tags:
+  - Autonomous Robotics
+
+tech_stack:
+  - Python
+  - ROS
+  - Gazebo
+  - Motion Planning
+  - Robotic Manipulation
+  - Grasping
+
+links:
+  - type: video
+    url: "https://youtu.be/RO7EYPQY84E"
+    label: "YouTube"
+
+featured: true
+---
+
+<p align="justify">
+At Dhristi Works, I worked on the development of robotic systems for
+automated beach cleaning. My focus was on developing algorithms for a
+robotic manipulator to perform pick-and-place tasks, with the intended
+application of identifying and collecting garbage and placing it into a
+bag or bin mounted on a mobile rover.
+</p>
+
+<p align="justify">
+I used ROS to interface a 5-DOF robotic arm with the Gazebo simulator,
+enabling the robot to be controlled through ROS in both simulated and
+real environments. This provided a common software interface for
+developing and testing manipulation algorithms before deployment on the
+physical robot.
+</p>
+
+<figure>
+    <img src="pickplace.gif"
+         alt="ROS-controlled robotic manipulator">
+    <figcaption>
+        Figure 1: Robotic manipulator controlled through ROS in simulated and real environments
+    </figcaption>
+</figure>
+
+<p align="justify">
+For object grasping, I compared and analyzed several available grasping
+techniques and interfaced the selected approach with the simulated
+robot. The system was evaluated on household objects in a simulated
+environment as a step toward autonomous garbage collection.
+</p>
+
+<figure>
+    <img src="reach.gif"
+         alt="Robotic arm grasping household objects">
+    <figcaption>
+        Figure 2: Robotic arm grasping household objects in simulation
+    </figcaption>
+</figure>
