@@ -1,5 +1,5 @@
 ---
-title: "Aerial Vehicle Localization Using a Downward-Facing Depth Camera for Precision Agriculture"
+title: "Visual-Inertial Localization for UAVs in Agricultural Environments"
 weight: 3
 date: 2023-04-03
 show_date: false
@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Evaluated visual-inertial localization for UAV pose estimation in simulated agricultural environments using a downward-facing Intel RealSense depth camera."
+summary: "Evaluation of a feedback-based visual-inertial system across structured and unstructured simulated environments."
 
 tags:
   - UAV Systems
@@ -18,7 +18,6 @@ tech_stack:
   - Gazebo
   - Visual-Inertial Odometry
   - UAV Localization
-  - Intel RealSense
   - Sensor Fusion
 
 links:
@@ -29,145 +28,208 @@ links:
 featured: true
 ---
 
+<style>
+@media (max-width: 768px) {
+  .environment-grid,
+  .localization-pair {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
 <p align="justify">
-At TIH, IIT Bombay, I evaluated visual-inertial odometry (VIO) systems for
-UAV pose estimation in precision agriculture. VIO combines visual
-information from a camera with high-rate motion measurements from an IMU,
-enabling pose estimation in GNSS-denied environments.
+At TIH, IIT Bombay, I worked on visual-inertial localization for UAVs
+in GNSS-denied agricultural environments. I evaluated the
+feedback-based visual-inertial system (FVIS) described in the
+<a href="https://ieeexplore.ieee.org/document/10155195"
+   target="_blank"
+   rel="noopener">
+published work
+</a>
+for UAV pose estimation using visual and IMU measurements.
 </p>
 
 <p align="justify">
-Agricultural environments present particular challenges for VIO due to
-changing illumination, highly self-similar crop textures, unstructured
-and dynamic objects, and irregular terrain that can produce more
-aggressive camera motion than typical indoor or urban environments.
-</p>
-
-<p align="justify">
-I simulated agricultural environments in Gazebo and evaluated a feedback-
-based visual-inertial system (FVIS) for estimating the position and
-orientation of an Iris quadcopter equipped with an Intel RealSense depth
-camera.
+I developed a Gazebo simulation using an Iris quadcopter equipped with
+a downward-facing Intel RealSense depth camera. The system was evaluated
+across structured and unstructured agricultural environments at flight
+altitudes of 3.5 m, 10 m, and 20 m.
 </p>
 
 <figure>
     <img src="9_flvis.gif"
-         alt="UAV localization in a simulated agricultural environment">
+         alt="Visual-inertial localization of an Iris quadcopter"
+         style="width: 100%; height: auto; display: block;">
     <figcaption>
-        Figure: Localization of an Iris quadcopter in a simulated agricultural field
+        Figure 1: Visual-inertial localization of an Iris quadcopter
+        in a simulated agricultural environment
     </figcaption>
 </figure>
 
+<h3>Simulation Environments</h3>
+
 <p align="justify">
-The implementation was evaluated in three simulated environments:
+The system was evaluated in three environments with different levels
+of visual structure.
 </p>
 
-<ol>
-  <li>Manhattan world with rich and diverse visual features</li>
-  <li>Structured farm with a regular grid arrangement</li>
-  <li>Unstructured farm with a randomly generated arrangement</li>
-</ol>
+<div class="environment-grid" style="
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: start;
+  margin: 30px 0 40px 0;
+">
 
-<div class="figures-wrapper">
-  <figure>
-    <img src="mh_top.png" alt="Manhattan world">
-    <figcaption>
-      <a href="https://youtu.be/9dqaCNd7JSQ" target="_blank" rel="noopener">
-        Manhattan World
+  <figure style="margin: 0; text-align: center;">
+    <img src="mh_top.png"
+         alt="Manhattan World simulation environment"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Manhattan World</b><br>
+      Structured environment with rich and diverse visual features
+      <br>
+      <a href="https://youtu.be/9dqaCNd7JSQ"
+         target="_blank"
+         rel="noopener">
+        Simulation Video
       </a>
     </figcaption>
   </figure>
 
-  <figure>
-    <img src="fg_top.png" alt="Farm grid world">
-    <figcaption>
-      <a href="https://youtu.be/7Z7jOObbWBc" target="_blank" rel="noopener">
-        Farm Grid World
+  <figure style="margin: 0; text-align: center;">
+    <img src="fg_top.png"
+         alt="Farm Grid World simulation environment"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Farm Grid World</b><br>
+      Structured agricultural environment with regular feature arrangement
+      <br>
+      <a href="https://youtu.be/7Z7jOObbWBc"
+         target="_blank"
+         rel="noopener">
+        Simulation Video
       </a>
     </figcaption>
   </figure>
 
-  <figure>
-    <img src="farm_rand_top.png" alt="Random farm world">
-    <figcaption>
-      <a href="https://youtu.be/cHfQndy20NI" target="_blank" rel="noopener">
-        Farm Random Arrangement
+  <figure style="margin: 0; text-align: center;">
+    <img src="farm_rand_top.png"
+         alt="Farm Random Arrangement simulation environment"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Farm Random Arrangement</b><br>
+      Unstructured environment with randomly distributed features
+      <br>
+      <a href="https://youtu.be/cHfQndy20NI"
+         target="_blank"
+         rel="noopener">
+        Simulation Video
       </a>
     </figcaption>
   </figure>
+
 </div>
 
 <p align="justify">
-The experiments compared the drone's true flight path and velocity
-profile with the trajectory and speed estimates generated by the
-VIO-based localization system at flight heights of 3.5 m, 10 m, and
-20 m.
+For each environment, the estimated position and velocity were compared
+with simulation ground truth at flight altitudes of 3.5 m, 10 m, and 20 m.
 </p>
 
-<table>
-  <tr>
-    <td>
-      <figure>
-        <img src="mh_pose.png"
-             alt="Manhattan world position plots">
-        <figcaption>
-          Manhattan world: position plots at different heights
-        </figcaption>
-      </figure>
-    </td>
+<h3>Localization Results</h3>
 
-    <td>
-      <figure>
-        <img src="mh_vel_plot.png"
-             alt="Manhattan world velocity plots">
-        <figcaption>
-          Manhattan world: velocity plots at different heights
-        </figcaption>
-      </figure>
-    </td>
-  </tr>
+<h4>Manhattan World</h4>
 
-  <tr>
-    <td>
-      <figure>
-        <img src="fg_pose.png"
-             alt="Farm grid world position plots">
-        <figcaption>
-          Farm grid world: position plots at different heights
-        </figcaption>
-      </figure>
-    </td>
+<div class="localization-pair" style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 20px 0 45px 0;
+">
 
-    <td>
-      <figure>
-        <img src="fg_vel_plot.png"
-             alt="Farm grid world velocity plots">
-        <figcaption>
-          Farm grid world: velocity plots at different heights
-        </figcaption>
-      </figure>
-    </td>
-  </tr>
+  <figure style="margin: 0; text-align: center;">
+    <img src="mh_pose.png"
+         alt="Manhattan World position estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Position</b><br>
+      Estimated and ground-truth position at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
 
-  <tr>
-    <td>
-      <figure>
-        <img src="fr_pose.png"
-             alt="Random farm world position plots">
-        <figcaption>
-          Random farm world: position plots at different heights
-        </figcaption>
-      </figure>
-    </td>
+  <figure style="margin: 0; text-align: center;">
+    <img src="mh_vel_plot.png"
+         alt="Manhattan World velocity estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Velocity</b><br>
+      Estimated and ground-truth velocity at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
 
-    <td>
-      <figure>
-        <img src="fr_vel_plot.png"
-             alt="Random farm world velocity plots">
-        <figcaption>
-          Farm random world: velocity plots at different heights
-        </figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
+</div>
+
+<h4>Farm Grid World</h4>
+
+<div class="localization-pair" style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 20px 0 45px 0;
+">
+
+  <figure style="margin: 0; text-align: center;">
+    <img src="fg_pose.png"
+         alt="Farm Grid World position estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Position</b><br>
+      Estimated and ground-truth position at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0; text-align: center;">
+    <img src="fg_vel_plot.png"
+         alt="Farm Grid World velocity estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Velocity</b><br>
+      Estimated and ground-truth velocity at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
+
+</div>
+
+<h4>Farm Random Arrangement</h4>
+
+<div class="localization-pair" style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 20px 0 45px 0;
+">
+
+  <figure style="margin: 0; text-align: center;">
+    <img src="fr_pose.png"
+         alt="Farm Random Arrangement position estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Position</b><br>
+      Estimated and ground-truth position at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0; text-align: center;">
+    <img src="fr_vel_plot.png"
+         alt="Farm Random Arrangement velocity estimates"
+         style="width: 100%; height: auto; display: block;">
+    <figcaption style="margin-top: 10px;">
+      <b>Velocity</b><br>
+      Estimated and ground-truth velocity at 3.5 m, 10 m, and 20 m
+    </figcaption>
+  </figure>
+
+</div>

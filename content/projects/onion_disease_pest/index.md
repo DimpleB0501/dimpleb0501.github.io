@@ -15,13 +15,10 @@ tags:
 tech_stack:
   - Python
   - UAV Multispectral Imaging
-  - Machine Learning
-  - Time-Series Analysis
   - Vegetation Indices
+  - Time-Series Analysis
   - Feature Engineering
-  - Random Forest
-  - SVM
-  - Data Fusion
+  - Hurdle Modeling
 
 links:
   - type: pdf
@@ -35,63 +32,14 @@ links:
 featured: true
 ---
 
-<p align="justify">
-This work presents a multimodal framework for estimating major onion
-diseases and pests by combining UAV-based multispectral imagery with
-ground-based weather data. The study was conducted on Bhima onion
-under naturally varying, co-occurring stress conditions, focusing on
-stemphylium blight, anthracnose, purple blotch, and thrips.
-</p>
-
-<p align="justify">
-Eleven field trials were conducted at the ICAR–Directorate of Onion &
-Garlic Research (DOGR), Maharashtra, between August 2023 and March 2024.
-Multispectral data were acquired using a MicaSense RedEdge-P mounted on
-a quadcopter, while an IoT-based weather station continuously recorded
-environmental conditions. UAV imagery was processed into aligned and
-radiometrically calibrated multispectral orthomosaics for region-wise
-vegetation-index analysis.
-</p>
-
 <figure>
     <img src="featured.png"
          alt="UAV multispectral and weather-based onion stress estimation framework">
-    <figcaption>
+    <figcaption style="text-align: center;">
         Figure: UAV multispectral and weather-based framework for onion disease and pest estimation
     </figcaption>
 </figure>
 
 <p align="justify">
-Fourteen vegetation indices were evaluated together with meteorological
-variables. To capture crop-stress dynamics beyond static spectral
-measurements, I worked with temporal features including first- and
-second-order changes and lagged observations, along with
-biomass-normalized ratio and difference features.
-</p>
-
-<p align="justify">
-The analysis revealed a biomass-related confounding effect in the
-relationship between conventional vegetation indices and disease
-severity. Feature engineering using temporal changes and
-biomass-normalized measurements helped isolate physiological stress
-signals from changes in canopy biomass.
-</p>
-
-<p align="justify">
-A Green Stress Ratio (GSR) was introduced as a new vegetation index and
-showed the strongest associations across the evaluated disease and pest
-categories. The final framework combined multispectral and
-meteorological features with a two-stage hurdle model: a classification
-stage for detecting stress presence followed by a regression stage for
-estimating stress severity.
-</p>
-
-<p align="justify">
-Random Forest, SVM/SVR, and linear models were evaluated using
-trial-independent validation. The Random Forest hurdle model provided
-the most consistent overall performance, with particularly strong
-detection results for purple blotch and stemphylium blight. The study
-demonstrates the potential of combining UAV sensing, environmental
-measurements, and machine learning for scalable crop-health monitoring
-and precision agriculture.
+Onion crops are highly vulnerable to a range of diseases and pests, which can lead to significant yield losses if timely detection and intervention are not achieved. This study presents a multimodal framework that integrates spectral indices derived from UAV-based multispectral imagery with meteorological data to estimate the incidence of major onion stressors under controlled field conditions. Data were collected from experimental plots of the Bhima onion variety across multiple growth stages, where stemphylium blight, anthracnose, purple blotch, and thrips co-occurred at naturally varying intensities. Fourteen vegetation indices (VI) and four weather variables were evaluated under untreated (no-spray) conditions to determine which features most reliably predict crop health and stress intensity. Beyond conventional indices, we incorporated derived features capturing temporal changes, lag effects, and biomass normalization, which significantly enhanced sensitivity to stress dynamics. Among all evaluated features, a newly introduced vegetation index, referred to as the Green Stress Ratio, consistently demonstrated the strongest associations across all disease and pest categories. A two-stage classification–regression framework was employed to first detect the presence of a stressor and subsequently quantify its severity, with models evaluated independently for each disease and pest. The results highlight the effectiveness of combining UAV-derived multispectral data with weather information for non-invasive, field-scale monitoring of onion crop health. This integrated approach provides a foundation for advanced decision-support systems aimed at targeted and sustainable pest and disease management in onion cultivation.
 </p>
