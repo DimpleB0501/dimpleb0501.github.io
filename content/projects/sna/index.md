@@ -17,6 +17,9 @@ tags:
 tech_stack:
   - Python
   - ROS
+  - Visual-Inertial Fusion
+  - ArduPilot/ MAVLink
+  - Real-Time Autonomous Navigation
 
 links:
   - type: pdf
