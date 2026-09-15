@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Developed a standalone EMG-based pattern recognition system for real-time control of prosthetic hand positions."
+summary: "EMG-based pattern recognition for real-time prosthetic hand control."
 
 tags:
   - Autonomous Robotics

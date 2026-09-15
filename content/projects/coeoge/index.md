@@ -26,7 +26,7 @@ tech_stack:
 
 links:
   - type: pdf
-    url: "uploads/multispectral-leak-detection-paper.pdf"
+    url: uploads/multispectral_leak_detection_paper.pdf
     label: "Paper"
 
   - type: site
@@ -34,7 +34,7 @@ links:
     label: "Website"
 
   - type: pdf
-    url: "uploads/multispectral-leak-detection-poster.pdf"
+    url: uploads/multispectral_leak_detection_poster.pdf
     label: "Poster"
 
 featured: true

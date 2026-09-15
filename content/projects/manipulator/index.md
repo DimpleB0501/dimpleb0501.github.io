@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Developed ROS-based control and grasping algorithms for a robotic manipulator intended for autonomous beach-cleaning applications."
+summary: "Robotic manipulator control and grasping for autonomous beach cleaning."
 
 tags:
   - Autonomous Robotics
@@ -15,10 +15,9 @@ tags:
 tech_stack:
   - Python
   - ROS
-  - Gazebo
-  - Motion Planning
-  - Robotic Manipulation
-  - Grasping
+  - Motion planning
+  - MoveIt
+  - GraspIt!
 
 links:
   - type: video
@@ -52,17 +51,45 @@ physical robot.
     </figcaption>
 </figure>
 
-<p align="justify">
-For object grasping, I compared and analyzed several available grasping
-techniques and interfaced the selected approach with the simulated
-robot. The system was evaluated on household objects in a simulated
-environment as a step toward autonomous garbage collection.
-</p>
+<div style="
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 40px 0;
+">
 
-<figure>
+  <!-- Description -->
+  <div>
+    <p align="justify">
+      For object grasping, I compared and analyzed several available grasping
+      techniques and interfaced the selected approach with the simulated robot.
+      The system was evaluated on household objects in a simulated environment
+      as a step toward autonomous garbage collection.
+    </p>
+  </div>
+
+  <!-- Image -->
+  <figure style="
+    margin: 0;
+    text-align: center;
+  ">
     <img src="reach.gif"
-         alt="Robotic arm grasping household objects">
-    <figcaption>
-        Figure 2: Robotic arm grasping household objects in simulation
+         loading="lazy"
+         alt="Robotic arm grasping household objects"
+         style="
+           display: block;
+           width: 100%;
+           max-width: 550px;
+           height: auto;
+           margin: 0 auto;
+         ">
+    <figcaption style="
+      margin-top: 10px;
+      text-align: center;
+    ">
+      Figure 2: Robotic arm grasping household objects in simulation
     </figcaption>
-</figure>
+  </figure>
+
+</div>

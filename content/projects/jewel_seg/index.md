@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Analysis and implementation of image segmentation algorithms for automatic jewellery background removal."
+summary: "Image segmentation for automatic jewellery background removal."
 
 tags:
   - Perception & AI
