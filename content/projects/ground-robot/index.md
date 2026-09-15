@@ -7,8 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Sensor fusion and velocity control for autonomous ground robot navigation and LiDAR-based obstacle avoidance."
-
+summary: "Sensor fusion and LiDAR-based obstacle avoidance for autonomous ground robots."
 
 tags:
   - Autonomous Robotics
@@ -17,40 +16,45 @@ tech_stack:
   - Python
   - ROS
   - MicroPython
-  - Raspberry Pi Pico
-  - NVIDIA Jetson Orin Nano
-  - LiDAR
   - Sensor Fusion
+  - LiDAR based obstacle avoidance
 
 links:
-  - type: pdf
-    url: "https://www.sciencedirect.com/science/article/pii/S2405896325024796"
-    label: "Paper"
-
-  - type: site
-    url: "https://sense-and-avoid.github.io/"
-    label: "Website"
-
   - type: video
-    url: "https://www.youtube.com/watch?v=uHRtXmLqwPw"
+    url: "https://youtu.be/YzKCNNOa5m0"
     label: "YouTube"
 
 featured: true
 ---
-<p align='justify'>
-To achieve autonomous navigation for a ground robot, I worked on the development of:
+<p align="justify">
+This project focused on developing the core sensing, control, and navigation
+components for an autonomous ground robot, including:
 </p>
 
 <ul>
-  <li>Encoder-based low-level controller developed with Raspberry Pi Pico.</li>
-  <li>Sensor fusion for robot localization using wheel encoders and orientation sensors.</li>
-  <li>Velocity controller design for LiDAR-based obstacle avoidance using NVIDIA Jetson Orin Nano.</li>
+  <li>
+    <b>Low-level control:</b> Developed an encoder-based motor controller
+    using a Raspberry Pi Pico and MicroPython.
+  </li>
+
+  <li>
+    <b>Localization:</b> Fused wheel encoder and orientation sensor data
+    to estimate the robot's motion and orientation.
+  </li>
+
+  <li>
+    <b>Obstacle avoidance:</b> Developed a velocity controller using LiDAR
+    data and deployed it on an NVIDIA Jetson Orin Nano for autonomous
+    obstacle avoidance.
+  </li>
 </ul>
 
 <figure>
     <img src="ground_robot.gif"
          alt="Autonomous ground robot navigation">
-    <figcaption>Figure: Autonomous navigation and obstacle avoidance for ground robot</figcaption>
+    <figcaption>
+        Figure 1: Autonomous ground robot navigation and obstacle avoidance
+    </figcaption>
 </figure>
 
 <div style="clear: both;">
@@ -65,9 +69,9 @@ To achieve autonomous navigation for a ground robot, I worked on the development
 
   <div>
     <p align='justify'>
-    The aim of this project was to develop a prototype rover that could be
-    scaled for vineyard data collection. The velocity controller was also
-    tested on a TurtleBot to validate the obstacle avoidance performance.
+    The system was developed as a prototype for autonomous vineyard
+    data collection. The LiDAR-based velocity controller was additionally
+    evaluated on a TurtleBot to validate its obstacle avoidance performance.
     </p>
   </div>
 </div>

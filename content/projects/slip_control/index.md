@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Designed a real-time experimental setup for studying slip and developing tactile-sensor-based grip control for a WidowX robotic gripper."
+summary: "Tactile-sensor-based slip detection and grip control for robotic grasping."
 
 tags:
   - Autonomous Robotics
@@ -15,11 +15,9 @@ tags:
 tech_stack:
   - MATLAB
   - Simulink
-  - Python
   - Tactile Sensing
-  - Force Sensing
-  - Slip Control
-  - WidowX
+  - Slip Detection
+  - Grip Control
 
 links:
   - type: video

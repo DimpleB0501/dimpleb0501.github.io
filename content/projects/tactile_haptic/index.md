@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Developed a tactile-to-haptic interface for telerobotics, enabling a remote operator to perceive the pressure experienced by a robotic hand."
+summary: "Tactile-to-haptic interface for telerobotic touch feedback."
 
 tags:
   - Autonomous Robotics

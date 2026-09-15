@@ -7,7 +7,7 @@ show_date_updated: false
 reading_time: false
 share: false
 
-summary: "Developed reactive path planning and patrolling for a team of car-like robots navigating a campus-like environment."
+summary: "Vehicle-aware path planning and obstacle avoidance for multi-robot patrolling."
 
 tags:
   - Autonomous Robotics
@@ -16,7 +16,6 @@ tech_stack:
   - Python
   - ROS
   - Webots
-  - MATLAB
   - Path Planning
   - Multi-Robot Systems
 
@@ -29,23 +28,36 @@ featured: true
 ---
 
 <p align="justify">
-For autonomous vehicles to navigate roads, a robust path planning system is
-required. Such a system involves high-level planning, including route
-selection and path generation, as well as lower-level planning for behavior
-selection, motion planning, and obstacle avoidance.
-</p>
-
-<p align="justify">
-During my work at the Indian Institute of Technology Bombay, I designed and
-developed several modules of a reactive path planning system for autonomous
-mobile vehicles. The system enabled a team of car-like robots to navigate
-predefined areas using information from a world map.
+During my tenure at the Autonomous Robotics and Multi-Robot Systems
+Lab at the Indian Institute of Technology Bombay, I worked on a
+collaborative project with the Centre for Artificial Intelligence and
+Robotics, Defence Research and Development Organisation, India,
+focused on autonomous patrolling and path planning for a team of
+car-like mobile robots. The objective was to
+enable the robots to patrol designated areas while ensuring that priority
+points within a cantonment were regularly visited and not left unattended.
 </p>
 
 <figure>
     <img src="multi_agents.gif"
          alt="Multiple car-like robots navigating a campus environment">
     <figcaption>
-        Figure: Multiple car-like robots traversing roads in an area selected from the world map
+        Figure: Multi-robot autonomous patrolling and path planning in Webots
     </figcaption>
 </figure>
+
+<p align="justify">
+The multi-robot patrolling algorithm was developed by a PhD student on the
+IIT Bombay team. My role was to integrate the algorithm into a ROS and
+Webots-based simulation framework and develop the path planning and
+navigation components required to execute the generated patrol targets.
+</p>
+
+<p align="justify">
+My primary contribution was vehicle-aware path generation for car-like
+robots. I developed smooth feasible trajectories using techniques such as
+cubic spline interpolation while accounting for the vehicle's motion
+constraints. I also integrated obstacle avoidance with the path planning
+pipeline, enabling the robots to navigate around obstacles while continuing
+toward their assigned patrol points.
+</p>
