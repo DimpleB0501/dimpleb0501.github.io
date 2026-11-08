@@ -1,6 +1,6 @@
 ---
 title: "UAV Multispectral Imaging for Oil and Water Leak Detection"
-weight: 4
+weight: 3
 date: 2023-04-03
 show_date: false
 show_date_updated: false
@@ -28,7 +28,7 @@ links:
     url: "https://surface-leakage-detection.github.io/"
     label: "Website"
   - type: pdf
-    url: uploads/multispectral_leak_detection_paper.pdf
+    url: https://ieeexplore.ieee.org/abstract/document/11730251
     label: "Paper"
   - type: pdf
     url: uploads/multispectral_leak_detection_poster.pdf

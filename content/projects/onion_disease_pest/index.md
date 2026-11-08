@@ -22,7 +22,7 @@ tech_stack:
 
 links:
   - type: pdf
-    url: uploads/onion-disease-pest-estimation-paper.pdf
+    url: https://ieeexplore.ieee.org/document/11730684
     label: "Paper"
 
   - type: pdf

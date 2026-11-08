@@ -1,6 +1,6 @@
 ---
 title: "Visual-Inertial Localization for UAVs in Agricultural Environments"
-weight: 3
+weight: 4
 date: 2023-04-03
 show_date: false
 show_date_updated: false
